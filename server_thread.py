@@ -118,8 +118,8 @@ def handle_player(client_sock, addr):
     while not playerData["inGame"]:
         with lock:
             # print("LENGTH OF PLAYER LIST:", len(players))
-            logging.info(f"LENGTH OF PLAYER LIST: {len(players)}")
-
+            # logging.info(f"LENGTH OF PLAYER LIST: {len(players)}")
+            logging.info("LENGTH OF PLAYER LIST: {}".format(len(players)))
 
             for i, p in enumerate(players):
                 if not p["inGame"] and p["playerID"] != playerData["playerID"]:
@@ -146,7 +146,9 @@ def handle_player(client_sock, addr):
                     break
 
     # print("Client:", addr, "IS SECOND: ", playerData["isSecond"])
-    logging.info(f"Client: {addr}, IS SECOND: , {playerData['isSecond']}")
+    # logging.info(f"Client: {addr}, IS SECOND: , {playerData['isSecond']}")
+    logging.info("Client: {}, IS SECOND: , {}".format(addr, playerData['isSecond']))
+
     # Start the game
     gameIsRunning = True
 
@@ -167,7 +169,8 @@ def handle_player(client_sock, addr):
     while True:
         if not playerData["isSecond"]:
             # print("Client:", addr, "CONNECTION ESTABLISHED")
-            logging.info("Client:", addr, "CONNECTION ESTABLISHED")
+            # logging.info("Client:", addr, "CONNECTION ESTABLISHED")
+            logging.info("Client: {} CONNECTION ESTABLISHED".format(addr))
             while gameIsRunning:
                 try:
                     data_to_b = client_a.recv(BUFFER_SIZE)
@@ -176,7 +179,8 @@ def handle_player(client_sock, addr):
                     if data_to_b:
 
                         # print("Data to client B: ", data_to_b)
-                        logging.info(f"Data to client B: {data_to_b}")
+                        # logging.info(f"Data to client B: {data_to_b}")
+                        logging.info("Data to client B: {}".format(data_to_b))
                         data_to_b = pickle.dumps(data_to_b)
                         client_b.send(data_to_b)
                     else:
@@ -191,7 +195,8 @@ def handle_player(client_sock, addr):
                     if data_to_a:
 
                         # print("Data to client A: ", data_to_a)
-                        logging.info(f"Data to client A: {data_to_a}")
+                        # logging.info(f"Data to client A: {data_to_a}")
+                        logging.info("Data to client A: {}".format(data_to_a))
 
                         data_to_a = pickle.dumps(data_to_a)
                         client_a.send(data_to_a)
@@ -254,7 +259,9 @@ class ThreadedServer(object):
                 logging.info("Listening")
                 client, address = self.sock.accept()
                 # print("Connection from client:", address)
-                logging.info(f"Connection from client: {address}")
+                # logging.info(f"Connection from client: {address}")
+                logging.info("Connection from client: {}".format(address))
+
                 client.settimeout(310)
                 thread_client = threading.Thread(target=self.listenToClient, args=(client, address)).start()
                 thread_list.append(thread_client)
