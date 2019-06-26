@@ -69,7 +69,7 @@ if message == "white" or message == "black":
     # double scale
     rect = (113,113,525,525)
 
-    def redraw_gameWindow(win , bo , p1time , p2time):
+    def redraw_gameWindow(win , bo , p1time , p2time ,turn):
 
         win.blit(board,(0,0)) # this allow imaget to be part of a game screen
         bo.draw(win)
@@ -80,6 +80,18 @@ if message == "white" or message == "black":
         txt2 = font.render("Player 2 time: " + formatTime2, 1, (255, 255, 255))
         win.blit(txt, (550,10))
         win.blit(txt2, (550,700))
+        if turn == "b":
+            font = pygame.font.SysFont("comicsans", 60)
+            txt = font.render("Player Black Turn", 1, (255, 0, 0))
+            win.blit(txt, (width / 2 - txt.get_width() / 2, 10))
+            pygame.display.update()
+
+        else:
+
+            font = pygame.font.SysFont("comicsans", 60)
+            txt = font.render("Player White Turn", 1, (255, 0, 0))
+            win.blit(txt, (width / 2 - txt.get_width() / 2, 10))
+            pygame.display.update()
 
         #pygame.draw.rect(win , (255,0,0) , (113,113,525,525) , 5) # used to draw pieces
         pygame.display.update() # casual game update
@@ -95,6 +107,23 @@ if message == "white" or message == "black":
                 j = math.floor (divY / ((rect[2])/8))
                 return i , j
         return -1,-1
+
+
+    def menu_screen(win):
+        run = True
+        while run:
+            win.fill((128, 128, 128))
+            font = pygame.font.SysFont("comicsans", 80)
+            txt = font.render("Online Chess", 1, (0, 128, 0))
+            win.blit(txt, (width / 2 - txt.get_width() / 2, 300))
+            pygame.display.update()
+            for event in pygame.event.get():
+                if event.type == pygame.QUIT:
+                    pygame.quit()
+                    run = False
+            time.sleep(2)
+            run = False
+        main(tcpClientA, message)
 
     def end_screen(win , text):
         pygame.font.init()
@@ -134,7 +163,7 @@ if message == "white" or message == "black":
             turn = "w"
         else:
             myTurn = False
-            turn = "b"
+            turn = "w"
 
         print("MyTurn color: ", myTurn, turn, color)
 
@@ -166,7 +195,7 @@ if message == "white" or message == "black":
                     end_screen(win,"White Win")
 
 
-            redraw_gameWindow(win , bo ,p1Time,p2Time)
+            redraw_gameWindow(win , bo ,p1Time,p2Time , turn)
 
 
             if myTurn:
@@ -190,8 +219,19 @@ if message == "white" or message == "black":
                         i , j = click(pos)
 
 
-                        change, prev_mv = bo.select(j,i , turn)
+                        change, prev_mv ,ifwin = bo.select(j,i , turn)
                         if change:
+                            if ifwin:
+                                if turn == "w":
+                                    end_screen(win, "White Win")
+                                    time.sleep(3)
+                                    quit()
+                                    pygame.quit()
+                                else:
+                                    end_screen(win, "Black Win")
+                                    time.sleep(3)
+                                    quit()
+                                    pygame.quit()
                             print("Change and previous", change, prev_mv)
                             #timeGone = int(time.time() - startTime)
                             curr = (i,j)
@@ -247,6 +287,7 @@ if message == "white" or message == "black":
                     myTurn = True
                     print("MyTurn color: ", myTurn, turn)
 
+        menu_screen(win)
 
 
 
@@ -255,4 +296,4 @@ if message == "white" or message == "black":
 
     win = pygame.display.set_mode((width,height))
     pygame.display.set_caption("Chess Game")
-    main(tcpClientA, message)
+    menu_screen(win)

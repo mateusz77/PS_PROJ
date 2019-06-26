@@ -10,6 +10,7 @@ class Board:
     def __init__(self,rows,cols):
         self.rows = rows
         self.cols = cols
+        self.turn = "w"
 
 
         self.board = [[0 for x in range(8)] for _ in range(rows)]
@@ -122,6 +123,7 @@ class Board:
     def select(self,row,col , color ):
         changed = False
         prev = (-1,-1)
+        ifwin = False
         for i in range(self.rows):
             for j in range(self.cols):
                 if self.board[i][j] != 0:
@@ -133,6 +135,7 @@ class Board:
                 moves = self.board[prev[0]][prev[1]].move_list
                 if (col , row) in moves:
                     changed = self.move(prev , (row,col),color)
+                    ifwin = self.check_if_win(color)
                     #changed = True
                 self.reset_selected()
         else:
@@ -141,6 +144,7 @@ class Board:
                 if (col, row) in moves:
 
                     changed = self.move(prev, (row, col),color)
+                    ifwin = self.check_if_win(color)
                     #changed = True
 
                 self.reset_selected()
@@ -153,7 +157,14 @@ class Board:
                 if self.board[row][col].color == color:
                     self.board[row][col].selected = True
                 #print(self.board[row][col])
-        return changed, prev
+            if changed:
+                if self.turn == "w":
+                    self.turn = "b"
+                    self.reset_selected()
+                else:
+                    self.turn = "w"
+                    self.reset_selected()
+        return changed, prev , ifwin
 
 
 
@@ -162,6 +173,16 @@ class Board:
             for j in range(self.cols):
                 if self.board[i][j] != 0:
                     self.board[i][j].selected = False
+
+    def check_if_win(self,color):
+       count = False
+       for i in range(self.rows):
+           for j in range(self.cols):
+               if self.board[i][j] != 0:
+                   if self.board[i][j].color != color:
+                       if self.board[i][j].king:
+                            return False
+       return True
 
 
     def move(self,start,end,color):
@@ -174,6 +195,7 @@ class Board:
         nBoard[start[0]][start[1]].change_pos((end[0],end[1 ]))
         nBoard[end[0]][end[1]] = nBoard[start[0]][start[1]]
         nBoard[start[0]][start[1]] = 0
+        '''
         self.board = nBoard
         if color == "w":
             checkColor = "b"
@@ -191,6 +213,7 @@ class Board:
             nBoard[end[0]][end[1]] = 0
             self.board = nBoard
         self.update_moves()
+        '''
         return changed
 
 if __name__ == '__main__':

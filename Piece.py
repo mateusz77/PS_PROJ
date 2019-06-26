@@ -66,7 +66,7 @@ class Piece:
             for move in moves:
                 x = 33 + round(self.startX + (move[0] * self.rect[2] / 8))
                 y = 33 + round(self.startY + (move[1] * self.rect[3] / 8))  # add five to center the position
-                pygame.draw.circle(win, (255,0,0),(x,y),10)
+                pygame.draw.circle(win, (0,255,0),(x,y),30,2)
 
         x = 5 + round(self.startX + (self.col * self.rect[2]/8))
         y = 5 + round(self.startY + (self.row * self.rect[3]/8)) # add five to center the position
