@@ -34,7 +34,8 @@ def find_servers():
         sent = client_mcast.sendto(encoded_message, mcast_grp)
         while True:
             data, addr = client_mcast.recvfrom(1024)
-            print(f"Chess server {addr[0]} available.")
+            # print(f"Chess server {addr[0]} available.")
+            print("Chess server {} available.".format(addr[0]))
             servers.append(addr[0])
     except:
         client_mcast.close()
