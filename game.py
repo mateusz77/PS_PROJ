@@ -84,19 +84,19 @@ if message == "white" or message == "black":
         formatTime1 = str(int(p1time//60)) + ":" +str(int(p1time%60))
         formatTime2 = str(int(p2time//60)) + ":" +str(int(p2time%60))
         font = pygame.font.SysFont("comicsans", 30)
-        txt = font.render("Player 1 time: " + formatTime1, 1, (255, 255, 255))
-        txt2 = font.render("Player 2 time: " + formatTime2, 1, (255, 255, 255))
-        win.blit(txt, (550,10))
-        win.blit(txt2, (550,700))
+        txt = font.render("Player White time: " + formatTime1, 1, (255, 255, 255))
+        txt2 = font.render("Player Black time: " + formatTime2, 1, (255, 255, 255))
+        win.blit(txt, (500,10))
+        win.blit(txt2, (500,700))
         if turn == "b":
-            font = pygame.font.SysFont("comicsans", 60)
+            font = pygame.font.SysFont("comicsans", 40)
             txt = font.render("Player Black Turn", 1, (255, 0, 0))
             win.blit(txt, (width / 2 - txt.get_width() / 2, 10))
             pygame.display.update()
 
         else:
 
-            font = pygame.font.SysFont("comicsans", 60)
+            font = pygame.font.SysFont("comicsans", 40)
             txt = font.render("Player White Turn", 1, (255, 0, 0))
             win.blit(txt, (width / 2 - txt.get_width() / 2, 10))
             pygame.display.update()

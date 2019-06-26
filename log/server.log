@@ -1,0 +1,2128 @@
+2019-06-25 23:58:29:MainThread:Started listening to client
+2019-06-25 23:58:29:MainThread:Listening
+2019-06-25 23:58:29:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-25 23:58:43:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 10:49:38:MainThread:Started listening to client
+2019-06-26 10:49:38:MainThread:Listening
+2019-06-26 10:49:38:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 10:49:46:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 10:49:47:MainThread:Connection from client: ('192.168.0.33', 42786)
+2019-06-26 10:49:47:Thread-2:Client: ('192.168.0.33', 42786) INITIALIZE
+2019-06-26 10:49:47:MainThread:Listening
+2019-06-26 10:49:47:Thread-2:Client: ('192.168.0.33', 42786) INDEX GRANTING
+2019-06-26 10:49:47:Thread-2:Client: ('192.168.0.33', 42786) INDEX GRANTED
+2019-06-26 10:49:47:Thread-2:Client: ('192.168.0.33', 42786) WAIT FOR THE PLAYER
+2019-06-26 10:49:47:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 10:49:47:Thread-2:Waiting for the player
+2019-06-26 10:49:48:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 10:49:48:Thread-2:Waiting for the player
+2019-06-26 10:49:49:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 10:49:49:Thread-2:Waiting for the player
+2019-06-26 10:49:50:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 10:49:50:Thread-2:Waiting for the player
+2019-06-26 10:49:51:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 10:49:51:Thread-2:Waiting for the player
+2019-06-26 10:49:52:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 10:49:52:Thread-2:Waiting for the player
+2019-06-26 10:49:53:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 10:49:53:Thread-2:Waiting for the player
+2019-06-26 10:49:54:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 10:49:54:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 10:49:54:Thread-2:Waiting for the player
+2019-06-26 10:49:55:MainThread:Connection from client: ('192.168.0.33', 42788)
+2019-06-26 10:49:55:Thread-3:Client: ('192.168.0.33', 42788) INITIALIZE
+2019-06-26 10:49:55:MainThread:Listening
+2019-06-26 10:49:55:Thread-3:Client: ('192.168.0.33', 42788) INDEX GRANTING
+2019-06-26 10:49:55:Thread-3:Client: ('192.168.0.33', 42788) INDEX GRANTED
+2019-06-26 10:49:55:Thread-3:Client: ('192.168.0.33', 42788) WAIT FOR THE PLAYER
+2019-06-26 10:49:55:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 10:49:55:Thread-2:Client: ('192.168.0.33', 42786), IS SECOND: , True
+2019-06-26 10:49:56:Thread-3:Client: ('192.168.0.33', 42788), IS SECOND: , False
+2019-06-26 10:49:59:Thread-3:Data to client B: Hello world!
+2019-06-26 10:50:02:Thread-3:Data to client A: Hi There!
+2019-06-26 11:48:40:MainThread:Started listening to client
+2019-06-26 11:48:40:MainThread:Listening
+2019-06-26 11:48:40:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 11:48:46:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 11:48:47:MainThread:Connection from client: ('192.168.0.33', 43252)
+2019-06-26 11:48:47:Thread-2:Client: ('192.168.0.33', 43252) INITIALIZE
+2019-06-26 11:48:47:MainThread:Listening
+2019-06-26 11:48:47:Thread-2:Client: ('192.168.0.33', 43252) INDEX GRANTING
+2019-06-26 11:48:47:Thread-2:Client: ('192.168.0.33', 43252) INDEX GRANTED
+2019-06-26 11:48:47:Thread-2:Client: ('192.168.0.33', 43252) WAIT FOR THE PLAYER
+2019-06-26 11:48:47:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 11:48:47:Thread-2:Waiting for the player
+2019-06-26 11:48:48:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 11:48:48:Thread-2:Waiting for the player
+2019-06-26 11:48:49:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 11:48:49:Thread-2:Waiting for the player
+2019-06-26 11:48:50:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 11:48:50:Thread-2:Waiting for the player
+2019-06-26 11:48:50:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 11:48:51:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 11:48:51:Thread-2:Waiting for the player
+2019-06-26 11:48:51:MainThread:Connection from client: ('192.168.0.33', 43254)
+2019-06-26 11:48:51:Thread-3:Client: ('192.168.0.33', 43254) INITIALIZE
+2019-06-26 11:48:51:MainThread:Listening
+2019-06-26 11:48:51:Thread-3:Client: ('192.168.0.33', 43254) INDEX GRANTING
+2019-06-26 11:48:51:Thread-3:Client: ('192.168.0.33', 43254) INDEX GRANTED
+2019-06-26 11:48:51:Thread-3:Client: ('192.168.0.33', 43254) WAIT FOR THE PLAYER
+2019-06-26 11:48:51:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 11:48:52:Thread-2:Client: ('192.168.0.33', 43252), IS SECOND: , True
+2019-06-26 11:48:52:Thread-3:Client: ('192.168.0.33', 43254), IS SECOND: , False
+2019-06-26 11:48:57:Thread-3:Data to client B: ((6, 4), (4, 4), 'white')
+2019-06-26 11:54:17:MainThread:Started listening to client
+2019-06-26 11:54:17:MainThread:Listening
+2019-06-26 11:54:17:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 11:54:20:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 11:54:21:MainThread:Connection from client: ('192.168.0.33', 43416)
+2019-06-26 11:54:21:Thread-2:Client: ('192.168.0.33', 43416) INITIALIZE
+2019-06-26 11:54:21:MainThread:Listening
+2019-06-26 11:54:21:Thread-2:Client: ('192.168.0.33', 43416) INDEX GRANTING
+2019-06-26 11:54:21:Thread-2:Client: ('192.168.0.33', 43416) INDEX GRANTED
+2019-06-26 11:54:21:Thread-2:Client: ('192.168.0.33', 43416) WAIT FOR THE PLAYER
+2019-06-26 11:54:21:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 11:54:21:Thread-2:Waiting for the player
+2019-06-26 11:54:22:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 11:54:22:Thread-2:Waiting for the player
+2019-06-26 11:54:23:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 11:54:23:Thread-2:Waiting for the player
+2019-06-26 11:54:24:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 11:54:24:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 11:54:24:Thread-2:Waiting for the player
+2019-06-26 11:54:25:MainThread:Connection from client: ('192.168.0.33', 43418)
+2019-06-26 11:54:25:Thread-3:Client: ('192.168.0.33', 43418) INITIALIZE
+2019-06-26 11:54:25:MainThread:Listening
+2019-06-26 11:54:25:Thread-3:Client: ('192.168.0.33', 43418) INDEX GRANTING
+2019-06-26 11:54:25:Thread-3:Client: ('192.168.0.33', 43418) INDEX GRANTED
+2019-06-26 11:54:25:Thread-3:Client: ('192.168.0.33', 43418) WAIT FOR THE PLAYER
+2019-06-26 11:54:25:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 11:54:25:Thread-2:Client: ('192.168.0.33', 43416), IS SECOND: , True
+2019-06-26 11:54:26:Thread-3:Client: ('192.168.0.33', 43418), IS SECOND: , False
+2019-06-26 11:54:35:Thread-3:Data to client B: ((6, 5), (5, 4), 'white')
+2019-06-26 11:59:27:MainThread:Started listening to client
+2019-06-26 11:59:27:MainThread:Listening
+2019-06-26 11:59:27:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 11:59:29:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 11:59:30:MainThread:Connection from client: ('192.168.0.33', 43482)
+2019-06-26 11:59:30:Thread-2:Client: ('192.168.0.33', 43482) INITIALIZE
+2019-06-26 11:59:30:MainThread:Listening
+2019-06-26 11:59:30:Thread-2:Client: ('192.168.0.33', 43482) INDEX GRANTING
+2019-06-26 11:59:30:Thread-2:Client: ('192.168.0.33', 43482) INDEX GRANTED
+2019-06-26 11:59:30:Thread-2:Client: ('192.168.0.33', 43482) WAIT FOR THE PLAYER
+2019-06-26 11:59:30:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 11:59:30:Thread-2:Waiting for the player
+2019-06-26 11:59:31:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 11:59:31:Thread-2:Waiting for the player
+2019-06-26 11:59:32:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 11:59:32:Thread-2:Waiting for the player
+2019-06-26 11:59:33:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 11:59:33:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 11:59:33:Thread-2:Waiting for the player
+2019-06-26 11:59:34:MainThread:Connection from client: ('192.168.0.33', 43484)
+2019-06-26 11:59:34:Thread-3:Client: ('192.168.0.33', 43484) INITIALIZE
+2019-06-26 11:59:34:MainThread:Listening
+2019-06-26 11:59:34:Thread-3:Client: ('192.168.0.33', 43484) INDEX GRANTING
+2019-06-26 11:59:34:Thread-3:Client: ('192.168.0.33', 43484) INDEX GRANTED
+2019-06-26 11:59:34:Thread-3:Client: ('192.168.0.33', 43484) WAIT FOR THE PLAYER
+2019-06-26 11:59:34:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 11:59:34:Thread-2:Client: ('192.168.0.33', 43482), IS SECOND: , True
+2019-06-26 11:59:35:Thread-3:Client: ('192.168.0.33', 43484), IS SECOND: , False
+2019-06-26 11:59:39:Thread-3:Data to client B: ((6, 5), (5, 4), 'white')
+2019-06-26 12:01:26:MainThread:Started listening to client
+2019-06-26 12:01:26:MainThread:Listening
+2019-06-26 12:01:26:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:01:27:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:01:28:MainThread:Connection from client: ('192.168.0.33', 43490)
+2019-06-26 12:01:28:Thread-2:Client: ('192.168.0.33', 43490) INITIALIZE
+2019-06-26 12:01:28:MainThread:Listening
+2019-06-26 12:01:28:Thread-2:Client: ('192.168.0.33', 43490) INDEX GRANTING
+2019-06-26 12:01:28:Thread-2:Client: ('192.168.0.33', 43490) INDEX GRANTED
+2019-06-26 12:01:28:Thread-2:Client: ('192.168.0.33', 43490) WAIT FOR THE PLAYER
+2019-06-26 12:01:28:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:01:28:Thread-2:Waiting for the player
+2019-06-26 12:01:29:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:01:29:Thread-2:Waiting for the player
+2019-06-26 12:01:30:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:01:30:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:01:30:Thread-2:Waiting for the player
+2019-06-26 12:01:31:MainThread:Connection from client: ('192.168.0.33', 43492)
+2019-06-26 12:01:31:Thread-3:Client: ('192.168.0.33', 43492) INITIALIZE
+2019-06-26 12:01:31:MainThread:Listening
+2019-06-26 12:01:31:Thread-3:Client: ('192.168.0.33', 43492) INDEX GRANTING
+2019-06-26 12:01:31:Thread-3:Client: ('192.168.0.33', 43492) INDEX GRANTED
+2019-06-26 12:01:31:Thread-3:Client: ('192.168.0.33', 43492) WAIT FOR THE PLAYER
+2019-06-26 12:01:31:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 12:01:31:Thread-2:Client: ('192.168.0.33', 43490), IS SECOND: , True
+2019-06-26 12:01:32:Thread-3:Client: ('192.168.0.33', 43492), IS SECOND: , False
+2019-06-26 12:01:37:Thread-3:Data to client B: ((6, 5), (5, 4), 'white')
+2019-06-26 12:02:24:MainThread:Started listening to client
+2019-06-26 12:02:24:MainThread:Listening
+2019-06-26 12:02:24:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:02:26:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:02:27:MainThread:Connection from client: ('192.168.0.33', 43494)
+2019-06-26 12:02:27:Thread-2:Client: ('192.168.0.33', 43494) INITIALIZE
+2019-06-26 12:02:27:MainThread:Listening
+2019-06-26 12:02:27:Thread-2:Client: ('192.168.0.33', 43494) INDEX GRANTING
+2019-06-26 12:02:27:Thread-2:Client: ('192.168.0.33', 43494) INDEX GRANTED
+2019-06-26 12:02:27:Thread-2:Client: ('192.168.0.33', 43494) WAIT FOR THE PLAYER
+2019-06-26 12:02:27:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:02:27:Thread-2:Waiting for the player
+2019-06-26 12:02:28:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:02:28:Thread-2:Waiting for the player
+2019-06-26 12:02:29:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:02:29:Thread-2:Waiting for the player
+2019-06-26 12:02:30:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:02:30:Thread-2:Waiting for the player
+2019-06-26 12:02:31:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:02:31:Thread-2:Waiting for the player
+2019-06-26 12:02:32:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:02:32:Thread-2:Waiting for the player
+2019-06-26 12:02:33:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:02:33:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:02:33:Thread-2:Waiting for the player
+2019-06-26 12:02:34:MainThread:Connection from client: ('192.168.0.33', 43496)
+2019-06-26 12:02:34:Thread-3:Client: ('192.168.0.33', 43496) INITIALIZE
+2019-06-26 12:02:34:MainThread:Listening
+2019-06-26 12:02:34:Thread-3:Client: ('192.168.0.33', 43496) INDEX GRANTING
+2019-06-26 12:02:34:Thread-3:Client: ('192.168.0.33', 43496) INDEX GRANTED
+2019-06-26 12:02:34:Thread-3:Client: ('192.168.0.33', 43496) WAIT FOR THE PLAYER
+2019-06-26 12:02:34:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 12:02:34:Thread-2:Client: ('192.168.0.33', 43494), IS SECOND: , True
+2019-06-26 12:02:35:Thread-3:Client: ('192.168.0.33', 43496), IS SECOND: , False
+2019-06-26 12:02:42:Thread-3:Data to client B: ((6, 3), (3, 4), 'white')
+2019-06-26 12:04:13:MainThread:Started listening to client
+2019-06-26 12:04:13:MainThread:Listening
+2019-06-26 12:04:13:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:04:15:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:04:16:MainThread:Connection from client: ('192.168.0.33', 43500)
+2019-06-26 12:04:16:Thread-2:Client: ('192.168.0.33', 43500) INITIALIZE
+2019-06-26 12:04:16:MainThread:Listening
+2019-06-26 12:04:16:Thread-2:Client: ('192.168.0.33', 43500) INDEX GRANTING
+2019-06-26 12:04:16:Thread-2:Client: ('192.168.0.33', 43500) INDEX GRANTED
+2019-06-26 12:04:16:Thread-2:Client: ('192.168.0.33', 43500) WAIT FOR THE PLAYER
+2019-06-26 12:04:16:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:04:16:Thread-2:Waiting for the player
+2019-06-26 12:04:17:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:04:17:Thread-2:Waiting for the player
+2019-06-26 12:04:18:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:04:18:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:04:18:Thread-2:Waiting for the player
+2019-06-26 12:04:19:MainThread:Connection from client: ('192.168.0.33', 43502)
+2019-06-26 12:04:19:Thread-3:Client: ('192.168.0.33', 43502) INITIALIZE
+2019-06-26 12:04:19:MainThread:Listening
+2019-06-26 12:04:19:Thread-3:Client: ('192.168.0.33', 43502) INDEX GRANTING
+2019-06-26 12:04:19:Thread-3:Client: ('192.168.0.33', 43502) INDEX GRANTED
+2019-06-26 12:04:19:Thread-3:Client: ('192.168.0.33', 43502) WAIT FOR THE PLAYER
+2019-06-26 12:04:19:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 12:04:19:Thread-2:Client: ('192.168.0.33', 43500), IS SECOND: , True
+2019-06-26 12:04:20:Thread-3:Client: ('192.168.0.33', 43502), IS SECOND: , False
+2019-06-26 12:04:24:Thread-3:Data to client B: ((6, 6), (6, 4), 'white')
+2019-06-26 12:07:12:MainThread:Started listening to client
+2019-06-26 12:07:12:MainThread:Listening
+2019-06-26 12:07:12:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:07:14:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:07:15:MainThread:Connection from client: ('192.168.0.33', 43508)
+2019-06-26 12:07:15:Thread-2:Client: ('192.168.0.33', 43508) INITIALIZE
+2019-06-26 12:07:15:MainThread:Listening
+2019-06-26 12:07:15:Thread-2:Client: ('192.168.0.33', 43508) INDEX GRANTING
+2019-06-26 12:07:15:Thread-2:Client: ('192.168.0.33', 43508) INDEX GRANTED
+2019-06-26 12:07:15:Thread-2:Client: ('192.168.0.33', 43508) WAIT FOR THE PLAYER
+2019-06-26 12:07:15:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:07:15:Thread-2:Waiting for the player
+2019-06-26 12:07:16:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:07:16:Thread-2:Waiting for the player
+2019-06-26 12:07:17:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:07:17:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:07:17:Thread-2:Waiting for the player
+2019-06-26 12:07:18:MainThread:Connection from client: ('192.168.0.33', 43510)
+2019-06-26 12:07:18:Thread-3:Client: ('192.168.0.33', 43510) INITIALIZE
+2019-06-26 12:07:18:MainThread:Listening
+2019-06-26 12:07:18:Thread-3:Client: ('192.168.0.33', 43510) INDEX GRANTING
+2019-06-26 12:07:18:Thread-3:Client: ('192.168.0.33', 43510) INDEX GRANTED
+2019-06-26 12:07:18:Thread-3:Client: ('192.168.0.33', 43510) WAIT FOR THE PLAYER
+2019-06-26 12:07:18:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 12:07:18:Thread-2:Client: ('192.168.0.33', 43508), IS SECOND: , True
+2019-06-26 12:07:19:Thread-3:Client: ('192.168.0.33', 43510), IS SECOND: , False
+2019-06-26 12:07:23:Thread-3:Data to client B: ((6, 6), (6, 4), 'white')
+2019-06-26 12:11:48:MainThread:Started listening to client
+2019-06-26 12:11:48:MainThread:Listening
+2019-06-26 12:11:48:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:11:51:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:11:52:MainThread:Connection from client: ('192.168.0.33', 43524)
+2019-06-26 12:11:52:Thread-2:Client: ('192.168.0.33', 43524) INITIALIZE
+2019-06-26 12:11:52:MainThread:Listening
+2019-06-26 12:11:52:Thread-2:Client: ('192.168.0.33', 43524) INDEX GRANTING
+2019-06-26 12:11:52:Thread-2:Client: ('192.168.0.33', 43524) INDEX GRANTED
+2019-06-26 12:11:52:Thread-2:Client: ('192.168.0.33', 43524) WAIT FOR THE PLAYER
+2019-06-26 12:11:52:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:11:52:Thread-2:Waiting for the player
+2019-06-26 12:11:53:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:11:53:Thread-2:Waiting for the player
+2019-06-26 12:11:53:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:11:54:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:11:54:Thread-2:Waiting for the player
+2019-06-26 12:11:54:MainThread:Connection from client: ('192.168.0.33', 43526)
+2019-06-26 12:11:54:Thread-3:Client: ('192.168.0.33', 43526) INITIALIZE
+2019-06-26 12:11:54:MainThread:Listening
+2019-06-26 12:11:54:Thread-3:Client: ('192.168.0.33', 43526) INDEX GRANTING
+2019-06-26 12:11:54:Thread-3:Client: ('192.168.0.33', 43526) INDEX GRANTED
+2019-06-26 12:11:54:Thread-3:Client: ('192.168.0.33', 43526) WAIT FOR THE PLAYER
+2019-06-26 12:11:54:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 12:11:55:Thread-2:Client: ('192.168.0.33', 43524), IS SECOND: , True
+2019-06-26 12:11:56:Thread-3:Client: ('192.168.0.33', 43526), IS SECOND: , False
+2019-06-26 12:11:59:Thread-3:Data to client B: ((6, 6), (6, 4), 'white')
+2019-06-26 12:12:41:MainThread:Started listening to client
+2019-06-26 12:12:41:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:12:41:MainThread:Listening
+2019-06-26 12:12:42:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:12:43:MainThread:Connection from client: ('192.168.0.33', 43528)
+2019-06-26 12:12:43:Thread-2:Client: ('192.168.0.33', 43528) INITIALIZE
+2019-06-26 12:12:43:MainThread:Listening
+2019-06-26 12:12:43:Thread-2:Client: ('192.168.0.33', 43528) INDEX GRANTING
+2019-06-26 12:12:43:Thread-2:Client: ('192.168.0.33', 43528) INDEX GRANTED
+2019-06-26 12:12:43:Thread-2:Client: ('192.168.0.33', 43528) WAIT FOR THE PLAYER
+2019-06-26 12:12:43:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:12:43:Thread-2:Waiting for the player
+2019-06-26 12:12:44:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:12:44:Thread-2:Waiting for the player
+2019-06-26 12:12:45:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:12:45:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:12:45:Thread-2:Waiting for the player
+2019-06-26 12:12:46:MainThread:Connection from client: ('192.168.0.33', 43530)
+2019-06-26 12:12:46:Thread-3:Client: ('192.168.0.33', 43530) INITIALIZE
+2019-06-26 12:12:46:MainThread:Listening
+2019-06-26 12:12:46:Thread-3:Client: ('192.168.0.33', 43530) INDEX GRANTING
+2019-06-26 12:12:46:Thread-3:Client: ('192.168.0.33', 43530) INDEX GRANTED
+2019-06-26 12:12:46:Thread-3:Client: ('192.168.0.33', 43530) WAIT FOR THE PLAYER
+2019-06-26 12:12:46:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 12:12:46:Thread-2:Client: ('192.168.0.33', 43528), IS SECOND: , True
+2019-06-26 12:12:47:Thread-3:Client: ('192.168.0.33', 43530), IS SECOND: , False
+2019-06-26 12:12:50:Thread-3:Data to client B: ((6, 6), (6, 4), 'white')
+2019-06-26 12:13:23:MainThread:Started listening to client
+2019-06-26 12:13:23:MainThread:Listening
+2019-06-26 12:13:23:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:13:25:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:13:26:MainThread:Connection from client: ('192.168.0.33', 43536)
+2019-06-26 12:13:26:Thread-2:Client: ('192.168.0.33', 43536) INITIALIZE
+2019-06-26 12:13:26:MainThread:Listening
+2019-06-26 12:13:26:Thread-2:Client: ('192.168.0.33', 43536) INDEX GRANTING
+2019-06-26 12:13:26:Thread-2:Client: ('192.168.0.33', 43536) INDEX GRANTED
+2019-06-26 12:13:26:Thread-2:Client: ('192.168.0.33', 43536) WAIT FOR THE PLAYER
+2019-06-26 12:13:26:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:13:26:Thread-2:Waiting for the player
+2019-06-26 12:13:27:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:13:27:Thread-2:Waiting for the player
+2019-06-26 12:13:28:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:13:28:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:13:28:Thread-2:Waiting for the player
+2019-06-26 12:13:29:MainThread:Connection from client: ('192.168.0.33', 43538)
+2019-06-26 12:13:29:Thread-3:Client: ('192.168.0.33', 43538) INITIALIZE
+2019-06-26 12:13:29:MainThread:Listening
+2019-06-26 12:13:29:Thread-3:Client: ('192.168.0.33', 43538) INDEX GRANTING
+2019-06-26 12:13:29:Thread-3:Client: ('192.168.0.33', 43538) INDEX GRANTED
+2019-06-26 12:13:29:Thread-3:Client: ('192.168.0.33', 43538) WAIT FOR THE PLAYER
+2019-06-26 12:13:29:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 12:13:29:Thread-2:Client: ('192.168.0.33', 43536), IS SECOND: , True
+2019-06-26 12:13:30:Thread-3:Client: ('192.168.0.33', 43538), IS SECOND: , False
+2019-06-26 12:13:33:Thread-3:Data to client B: ((6, 6), (6, 4), 'white')
+2019-06-26 12:13:48:Thread-3:Data to client A: EXIT
+2019-06-26 12:15:01:MainThread:Started listening to client
+2019-06-26 12:15:01:MainThread:Listening
+2019-06-26 12:15:01:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:15:04:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:15:05:MainThread:Connection from client: ('192.168.0.33', 43544)
+2019-06-26 12:15:05:Thread-2:Client: ('192.168.0.33', 43544) INITIALIZE
+2019-06-26 12:15:05:MainThread:Listening
+2019-06-26 12:15:05:Thread-2:Client: ('192.168.0.33', 43544) INDEX GRANTING
+2019-06-26 12:15:05:Thread-2:Client: ('192.168.0.33', 43544) INDEX GRANTED
+2019-06-26 12:15:05:Thread-2:Client: ('192.168.0.33', 43544) WAIT FOR THE PLAYER
+2019-06-26 12:15:05:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:15:05:Thread-2:Waiting for the player
+2019-06-26 12:15:06:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:15:06:Thread-2:Waiting for the player
+2019-06-26 12:15:06:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:15:07:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:15:07:Thread-2:Waiting for the player
+2019-06-26 12:15:07:MainThread:Connection from client: ('192.168.0.33', 43546)
+2019-06-26 12:15:07:Thread-3:Client: ('192.168.0.33', 43546) INITIALIZE
+2019-06-26 12:15:07:Thread-3:Client: ('192.168.0.33', 43546) INDEX GRANTING
+2019-06-26 12:15:07:Thread-3:Client: ('192.168.0.33', 43546) INDEX GRANTED
+2019-06-26 12:15:07:Thread-3:Client: ('192.168.0.33', 43546) WAIT FOR THE PLAYER
+2019-06-26 12:15:07:MainThread:Listening
+2019-06-26 12:15:07:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 12:15:08:Thread-2:Client: ('192.168.0.33', 43544), IS SECOND: , True
+2019-06-26 12:15:08:Thread-3:Client: ('192.168.0.33', 43546), IS SECOND: , False
+2019-06-26 12:15:11:Thread-3:Data to client B: ((6, 7), (7, 4), 'white')
+2019-06-26 12:15:24:Thread-3:Data to client A: EXIT
+2019-06-26 12:16:06:MainThread:Started listening to client
+2019-06-26 12:16:06:MainThread:Listening
+2019-06-26 12:16:06:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:16:08:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:16:09:MainThread:Connection from client: ('192.168.0.33', 43548)
+2019-06-26 12:16:09:Thread-2:Client: ('192.168.0.33', 43548) INITIALIZE
+2019-06-26 12:16:09:MainThread:Listening
+2019-06-26 12:16:09:Thread-2:Client: ('192.168.0.33', 43548) INDEX GRANTING
+2019-06-26 12:16:09:Thread-2:Client: ('192.168.0.33', 43548) INDEX GRANTED
+2019-06-26 12:16:09:Thread-2:Client: ('192.168.0.33', 43548) WAIT FOR THE PLAYER
+2019-06-26 12:16:09:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:16:09:Thread-2:Waiting for the player
+2019-06-26 12:16:10:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:16:10:Thread-2:Waiting for the player
+2019-06-26 12:16:10:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:16:11:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:16:11:Thread-2:Waiting for the player
+2019-06-26 12:16:11:MainThread:Connection from client: ('192.168.0.33', 43550)
+2019-06-26 12:16:11:Thread-3:Client: ('192.168.0.33', 43550) INITIALIZE
+2019-06-26 12:16:11:MainThread:Listening
+2019-06-26 12:16:11:Thread-3:Client: ('192.168.0.33', 43550) INDEX GRANTING
+2019-06-26 12:16:11:Thread-3:Client: ('192.168.0.33', 43550) INDEX GRANTED
+2019-06-26 12:16:11:Thread-3:Client: ('192.168.0.33', 43550) WAIT FOR THE PLAYER
+2019-06-26 12:16:11:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 12:16:12:Thread-2:Client: ('192.168.0.33', 43548), IS SECOND: , True
+2019-06-26 12:16:12:Thread-3:Client: ('192.168.0.33', 43550), IS SECOND: , False
+2019-06-26 12:16:16:Thread-3:Data to client B: ((6, 6), (6, 4), 'white')
+2019-06-26 12:16:23:Thread-3:Data to client A: EXIT
+2019-06-26 12:16:49:MainThread:Started listening to client
+2019-06-26 12:16:49:MainThread:Listening
+2019-06-26 12:16:49:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:16:51:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:16:52:MainThread:Connection from client: ('192.168.0.33', 43554)
+2019-06-26 12:16:52:Thread-2:Client: ('192.168.0.33', 43554) INITIALIZE
+2019-06-26 12:16:52:MainThread:Listening
+2019-06-26 12:16:52:Thread-2:Client: ('192.168.0.33', 43554) INDEX GRANTING
+2019-06-26 12:16:52:Thread-2:Client: ('192.168.0.33', 43554) INDEX GRANTED
+2019-06-26 12:16:52:Thread-2:Client: ('192.168.0.33', 43554) WAIT FOR THE PLAYER
+2019-06-26 12:16:52:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:16:52:Thread-2:Waiting for the player
+2019-06-26 12:16:53:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:16:53:Thread-2:Waiting for the player
+2019-06-26 12:16:53:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:16:54:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:16:54:Thread-2:Waiting for the player
+2019-06-26 12:16:54:MainThread:Connection from client: ('192.168.0.33', 43556)
+2019-06-26 12:16:54:Thread-3:Client: ('192.168.0.33', 43556) INITIALIZE
+2019-06-26 12:16:54:MainThread:Listening
+2019-06-26 12:16:54:Thread-3:Client: ('192.168.0.33', 43556) INDEX GRANTING
+2019-06-26 12:16:54:Thread-3:Client: ('192.168.0.33', 43556) INDEX GRANTED
+2019-06-26 12:16:54:Thread-3:Client: ('192.168.0.33', 43556) WAIT FOR THE PLAYER
+2019-06-26 12:16:54:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 12:16:55:Thread-2:Client: ('192.168.0.33', 43554), IS SECOND: , True
+2019-06-26 12:16:55:Thread-3:Client: ('192.168.0.33', 43556), IS SECOND: , False
+2019-06-26 12:17:01:Thread-3:Data to client B: ((6, 4), (4, 4), 'white')
+2019-06-26 12:17:19:Thread-3:Data to client A: EXIT
+2019-06-26 12:18:30:MainThread:Started listening to client
+2019-06-26 12:18:30:MainThread:Listening
+2019-06-26 12:18:30:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:18:31:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:18:32:MainThread:Connection from client: ('192.168.0.33', 43560)
+2019-06-26 12:18:32:Thread-2:Client: ('192.168.0.33', 43560) INITIALIZE
+2019-06-26 12:18:32:MainThread:Listening
+2019-06-26 12:18:32:Thread-2:Client: ('192.168.0.33', 43560) INDEX GRANTING
+2019-06-26 12:18:32:Thread-2:Client: ('192.168.0.33', 43560) INDEX GRANTED
+2019-06-26 12:18:32:Thread-2:Client: ('192.168.0.33', 43560) WAIT FOR THE PLAYER
+2019-06-26 12:18:32:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:18:32:Thread-2:Waiting for the player
+2019-06-26 12:18:33:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:18:33:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:18:33:Thread-2:Waiting for the player
+2019-06-26 12:18:34:MainThread:Connection from client: ('192.168.0.33', 43562)
+2019-06-26 12:18:34:Thread-3:Client: ('192.168.0.33', 43562) INITIALIZE
+2019-06-26 12:18:34:MainThread:Listening
+2019-06-26 12:18:34:Thread-3:Client: ('192.168.0.33', 43562) INDEX GRANTING
+2019-06-26 12:18:34:Thread-3:Client: ('192.168.0.33', 43562) INDEX GRANTED
+2019-06-26 12:18:34:Thread-3:Client: ('192.168.0.33', 43562) WAIT FOR THE PLAYER
+2019-06-26 12:18:34:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 12:18:34:Thread-2:Client: ('192.168.0.33', 43560), IS SECOND: , True
+2019-06-26 12:18:35:Thread-3:Client: ('192.168.0.33', 43562), IS SECOND: , False
+2019-06-26 12:18:40:Thread-3:Data to client B: ((6, 4), (4, 4), 'white')
+2019-06-26 12:19:32:MainThread:Started listening to client
+2019-06-26 12:19:32:MainThread:Listening
+2019-06-26 12:19:32:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:19:34:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:19:35:MainThread:Connection from client: ('192.168.0.33', 43570)
+2019-06-26 12:19:35:Thread-2:Client: ('192.168.0.33', 43570) INITIALIZE
+2019-06-26 12:19:35:MainThread:Listening
+2019-06-26 12:19:35:Thread-2:Client: ('192.168.0.33', 43570) INDEX GRANTING
+2019-06-26 12:19:35:Thread-2:Client: ('192.168.0.33', 43570) INDEX GRANTED
+2019-06-26 12:19:35:Thread-2:Client: ('192.168.0.33', 43570) WAIT FOR THE PLAYER
+2019-06-26 12:19:35:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:19:35:Thread-2:Waiting for the player
+2019-06-26 12:19:36:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:19:36:Thread-2:Waiting for the player
+2019-06-26 12:19:37:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:19:37:Thread-2:Waiting for the player
+2019-06-26 12:19:37:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:19:38:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:19:38:Thread-2:Waiting for the player
+2019-06-26 12:19:38:MainThread:Connection from client: ('192.168.0.33', 43574)
+2019-06-26 12:19:38:Thread-3:Client: ('192.168.0.33', 43574) INITIALIZE
+2019-06-26 12:19:38:MainThread:Listening
+2019-06-26 12:19:38:Thread-3:Client: ('192.168.0.33', 43574) INDEX GRANTING
+2019-06-26 12:19:38:Thread-3:Client: ('192.168.0.33', 43574) INDEX GRANTED
+2019-06-26 12:19:38:Thread-3:Client: ('192.168.0.33', 43574) WAIT FOR THE PLAYER
+2019-06-26 12:19:38:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 12:19:39:Thread-2:Client: ('192.168.0.33', 43570), IS SECOND: , True
+2019-06-26 12:19:39:Thread-3:Client: ('192.168.0.33', 43574), IS SECOND: , False
+2019-06-26 12:19:43:Thread-3:Data to client B: ((6, 5), (5, 4), 'white')
+2019-06-26 12:20:02:Thread-3:Data to client A: EXIT
+2019-06-26 12:21:21:MainThread:Started listening to client
+2019-06-26 12:21:21:MainThread:Listening
+2019-06-26 12:21:21:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:21:24:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:21:25:MainThread:Connection from client: ('192.168.0.33', 43584)
+2019-06-26 12:21:25:Thread-2:Client: ('192.168.0.33', 43584) INITIALIZE
+2019-06-26 12:21:25:MainThread:Listening
+2019-06-26 12:21:25:Thread-2:Client: ('192.168.0.33', 43584) INDEX GRANTING
+2019-06-26 12:21:25:Thread-2:Client: ('192.168.0.33', 43584) INDEX GRANTED
+2019-06-26 12:21:25:Thread-2:Client: ('192.168.0.33', 43584) WAIT FOR THE PLAYER
+2019-06-26 12:21:25:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:21:25:Thread-2:Waiting for the player
+2019-06-26 12:21:26:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:21:26:Thread-2:Waiting for the player
+2019-06-26 12:21:26:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:21:27:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:21:27:Thread-2:Waiting for the player
+2019-06-26 12:21:27:MainThread:Connection from client: ('192.168.0.33', 43586)
+2019-06-26 12:21:27:Thread-3:Client: ('192.168.0.33', 43586) INITIALIZE
+2019-06-26 12:21:27:Thread-3:Client: ('192.168.0.33', 43586) INDEX GRANTING
+2019-06-26 12:21:27:Thread-3:Client: ('192.168.0.33', 43586) INDEX GRANTED
+2019-06-26 12:21:27:Thread-3:Client: ('192.168.0.33', 43586) WAIT FOR THE PLAYER
+2019-06-26 12:21:27:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 12:21:27:MainThread:Listening
+2019-06-26 12:21:28:Thread-2:Client: ('192.168.0.33', 43584), IS SECOND: , True
+2019-06-26 12:21:28:Thread-3:Client: ('192.168.0.33', 43586), IS SECOND: , False
+2019-06-26 12:21:32:Thread-3:Data to client B: ((6, 4), (4, 4), 'white')
+2019-06-26 12:21:34:Thread-3:Data to client A: ((1, 5), (5, 3), 'white')
+2019-06-26 12:22:05:Thread-3:Data to client B: EXIT
+2019-06-26 12:22:32:MainThread:Started listening to client
+2019-06-26 12:22:32:MainThread:Listening
+2019-06-26 12:22:32:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:22:34:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:22:35:MainThread:Connection from client: ('192.168.0.33', 43588)
+2019-06-26 12:22:35:Thread-2:Client: ('192.168.0.33', 43588) INITIALIZE
+2019-06-26 12:22:35:MainThread:Listening
+2019-06-26 12:22:35:Thread-2:Client: ('192.168.0.33', 43588) INDEX GRANTING
+2019-06-26 12:22:35:Thread-2:Client: ('192.168.0.33', 43588) INDEX GRANTED
+2019-06-26 12:22:35:Thread-2:Client: ('192.168.0.33', 43588) WAIT FOR THE PLAYER
+2019-06-26 12:22:35:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:22:35:Thread-2:Waiting for the player
+2019-06-26 12:22:36:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:22:36:Thread-2:Waiting for the player
+2019-06-26 12:22:36:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:22:37:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:22:37:Thread-2:Waiting for the player
+2019-06-26 12:22:37:MainThread:Connection from client: ('192.168.0.33', 43590)
+2019-06-26 12:22:37:Thread-3:Client: ('192.168.0.33', 43590) INITIALIZE
+2019-06-26 12:22:37:MainThread:Listening
+2019-06-26 12:22:37:Thread-3:Client: ('192.168.0.33', 43590) INDEX GRANTING
+2019-06-26 12:22:37:Thread-3:Client: ('192.168.0.33', 43590) INDEX GRANTED
+2019-06-26 12:22:37:Thread-3:Client: ('192.168.0.33', 43590) WAIT FOR THE PLAYER
+2019-06-26 12:22:37:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 12:22:38:Thread-2:Client: ('192.168.0.33', 43588), IS SECOND: , True
+2019-06-26 12:22:38:Thread-3:Client: ('192.168.0.33', 43590), IS SECOND: , False
+2019-06-26 12:22:43:Thread-3:Data to client B: EXIT
+2019-06-26 12:23:04:MainThread:Started listening to client
+2019-06-26 12:23:04:MainThread:Listening
+2019-06-26 12:23:04:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:23:07:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:23:08:MainThread:Connection from client: ('192.168.0.33', 43594)
+2019-06-26 12:23:08:Thread-2:Client: ('192.168.0.33', 43594) INITIALIZE
+2019-06-26 12:23:08:MainThread:Listening
+2019-06-26 12:23:08:Thread-2:Client: ('192.168.0.33', 43594) INDEX GRANTING
+2019-06-26 12:23:08:Thread-2:Client: ('192.168.0.33', 43594) INDEX GRANTED
+2019-06-26 12:23:08:Thread-2:Client: ('192.168.0.33', 43594) WAIT FOR THE PLAYER
+2019-06-26 12:23:08:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:23:08:Thread-2:Waiting for the player
+2019-06-26 12:23:08:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:23:09:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:23:09:Thread-2:Waiting for the player
+2019-06-26 12:23:09:MainThread:Connection from client: ('192.168.0.33', 43596)
+2019-06-26 12:23:09:Thread-3:Client: ('192.168.0.33', 43596) INITIALIZE
+2019-06-26 12:23:09:MainThread:Listening
+2019-06-26 12:23:09:Thread-3:Client: ('192.168.0.33', 43596) INDEX GRANTING
+2019-06-26 12:23:09:Thread-3:Client: ('192.168.0.33', 43596) INDEX GRANTED
+2019-06-26 12:23:09:Thread-3:Client: ('192.168.0.33', 43596) WAIT FOR THE PLAYER
+2019-06-26 12:23:09:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 12:23:10:Thread-2:Client: ('192.168.0.33', 43594), IS SECOND: , True
+2019-06-26 12:23:10:Thread-3:Client: ('192.168.0.33', 43596), IS SECOND: , False
+2019-06-26 12:23:14:Thread-3:Data to client B: ((6, 6), (6, 4), 'white')
+2019-06-26 12:23:17:Thread-3:Data to client A: ((1, 4), (4, 3), 'black')
+2019-06-26 12:23:20:Thread-3:Data to client B: ((6, 4), (4, 4), 'white')
+2019-06-26 12:23:23:Thread-3:Data to client A: ((1, 3), (3, 3), 'black')
+2019-06-26 12:23:25:Thread-3:Data to client B: ((4, 4), (3, 3), 'white')
+2019-06-26 12:23:32:Thread-3:Data to client A: ((1, 2), (2, 3), 'black')
+2019-06-26 12:23:35:Thread-3:Data to client B: ((6, 5), (5, 4), 'white')
+2019-06-26 12:23:39:Thread-3:Data to client A: ((3, 4), (5, 4), 'black')
+2019-06-26 12:23:44:Thread-3:Data to client B: ((6, 3), (3, 4), 'white')
+2019-06-26 12:23:46:Thread-3:Data to client A: EXIT
+2019-06-26 12:38:41:MainThread:Started listening to client
+2019-06-26 12:38:41:MainThread:Listening
+2019-06-26 12:38:41:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:38:44:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:38:45:MainThread:Connection from client: ('192.168.0.33', 43734)
+2019-06-26 12:38:45:Thread-2:Client: ('192.168.0.33', 43734) INITIALIZE
+2019-06-26 12:38:45:MainThread:Listening
+2019-06-26 12:38:45:Thread-2:Client: ('192.168.0.33', 43734) INDEX GRANTING
+2019-06-26 12:38:45:Thread-2:Client: ('192.168.0.33', 43734) INDEX GRANTED
+2019-06-26 12:38:45:Thread-2:Client: ('192.168.0.33', 43734) WAIT FOR THE PLAYER
+2019-06-26 12:38:45:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:38:45:Thread-2:Waiting for the player
+2019-06-26 12:38:46:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 12:38:46:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 12:38:46:Thread-2:Waiting for the player
+2019-06-26 12:38:47:MainThread:Connection from client: ('192.168.0.33', 43736)
+2019-06-26 12:38:47:Thread-3:Client: ('192.168.0.33', 43736) INITIALIZE
+2019-06-26 12:38:47:MainThread:Listening
+2019-06-26 12:38:47:Thread-3:Client: ('192.168.0.33', 43736) INDEX GRANTING
+2019-06-26 12:38:47:Thread-3:Client: ('192.168.0.33', 43736) INDEX GRANTED
+2019-06-26 12:38:47:Thread-3:Client: ('192.168.0.33', 43736) WAIT FOR THE PLAYER
+2019-06-26 12:38:47:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 12:38:47:Thread-2:Client: ('192.168.0.33', 43734), IS SECOND: , True
+2019-06-26 12:38:48:Thread-3:Client: ('192.168.0.33', 43736), IS SECOND: , False
+2019-06-26 12:38:56:Thread-3:Data to client B: ((6, 4), (4, 4), 'white')
+2019-06-26 12:38:59:Thread-3:Data to client A: ((1, 3), (3, 3), 'black')
+2019-06-26 12:39:01:Thread-3:Data to client B: ((4, 4), (3, 3), 'white')
+2019-06-26 12:39:13:Thread-3:Data to client A: EXIT
+2019-06-26 13:11:22:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 13:11:23:MainThread:Connection from client: ('192.168.0.11', 44694)
+2019-06-26 13:11:23:Thread-4:Client: ('192.168.0.11', 44694) INITIALIZE
+2019-06-26 13:11:23:MainThread:Listening
+2019-06-26 13:11:23:Thread-4:Client: ('192.168.0.11', 44694) INDEX GRANTING
+2019-06-26 13:11:23:Thread-4:Client: ('192.168.0.11', 44694) INDEX GRANTED
+2019-06-26 13:11:23:Thread-4:Client: ('192.168.0.11', 44694) WAIT FOR THE PLAYER
+2019-06-26 13:11:23:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:23:Thread-4:Waiting for the player
+2019-06-26 13:11:24:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:24:Thread-4:Waiting for the player
+2019-06-26 13:11:25:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:25:Thread-4:Waiting for the player
+2019-06-26 13:11:26:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:26:Thread-4:Waiting for the player
+2019-06-26 13:11:27:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:27:Thread-4:Waiting for the player
+2019-06-26 13:11:28:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:28:Thread-4:Waiting for the player
+2019-06-26 13:11:29:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:29:Thread-4:Waiting for the player
+2019-06-26 13:11:30:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:30:Thread-4:Waiting for the player
+2019-06-26 13:11:31:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:31:Thread-4:Waiting for the player
+2019-06-26 13:11:32:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:32:Thread-4:Waiting for the player
+2019-06-26 13:11:33:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:33:Thread-4:Waiting for the player
+2019-06-26 13:11:34:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:34:Thread-4:Waiting for the player
+2019-06-26 13:11:35:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:35:Thread-4:Waiting for the player
+2019-06-26 13:11:36:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:36:Thread-4:Waiting for the player
+2019-06-26 13:11:37:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:37:Thread-4:Waiting for the player
+2019-06-26 13:11:38:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:38:Thread-4:Waiting for the player
+2019-06-26 13:11:39:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:39:Thread-4:Waiting for the player
+2019-06-26 13:11:40:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:40:Thread-4:Waiting for the player
+2019-06-26 13:11:41:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:41:Thread-4:Waiting for the player
+2019-06-26 13:11:42:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:42:Thread-4:Waiting for the player
+2019-06-26 13:11:43:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:43:Thread-4:Waiting for the player
+2019-06-26 13:11:44:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:44:Thread-4:Waiting for the player
+2019-06-26 13:11:45:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:45:Thread-4:Waiting for the player
+2019-06-26 13:11:47:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:47:Thread-4:Waiting for the player
+2019-06-26 13:11:48:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:48:Thread-4:Waiting for the player
+2019-06-26 13:11:49:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:49:Thread-4:Waiting for the player
+2019-06-26 13:11:50:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:50:Thread-4:Waiting for the player
+2019-06-26 13:11:51:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:51:Thread-4:Waiting for the player
+2019-06-26 13:11:52:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:52:Thread-4:Waiting for the player
+2019-06-26 13:11:53:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:53:Thread-4:Waiting for the player
+2019-06-26 13:11:54:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:54:Thread-4:Waiting for the player
+2019-06-26 13:11:55:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:55:Thread-4:Waiting for the player
+2019-06-26 13:11:56:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:56:Thread-4:Waiting for the player
+2019-06-26 13:11:57:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:57:Thread-4:Waiting for the player
+2019-06-26 13:11:58:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:58:Thread-4:Waiting for the player
+2019-06-26 13:11:59:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:11:59:Thread-4:Waiting for the player
+2019-06-26 13:12:00:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:00:Thread-4:Waiting for the player
+2019-06-26 13:12:01:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:01:Thread-4:Waiting for the player
+2019-06-26 13:12:02:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:02:Thread-4:Waiting for the player
+2019-06-26 13:12:03:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:03:Thread-4:Waiting for the player
+2019-06-26 13:12:04:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:04:Thread-4:Waiting for the player
+2019-06-26 13:12:05:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:05:Thread-4:Waiting for the player
+2019-06-26 13:12:06:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:06:Thread-4:Waiting for the player
+2019-06-26 13:12:07:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:07:Thread-4:Waiting for the player
+2019-06-26 13:12:08:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:08:Thread-4:Waiting for the player
+2019-06-26 13:12:09:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:09:Thread-4:Waiting for the player
+2019-06-26 13:12:10:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:10:Thread-4:Waiting for the player
+2019-06-26 13:12:11:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:11:Thread-4:Waiting for the player
+2019-06-26 13:12:12:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:12:Thread-4:Waiting for the player
+2019-06-26 13:12:13:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:13:Thread-4:Waiting for the player
+2019-06-26 13:12:14:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:14:Thread-4:Waiting for the player
+2019-06-26 13:12:15:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:15:Thread-4:Waiting for the player
+2019-06-26 13:12:16:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:16:Thread-4:Waiting for the player
+2019-06-26 13:12:17:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:17:Thread-4:Waiting for the player
+2019-06-26 13:12:18:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:18:Thread-4:Waiting for the player
+2019-06-26 13:12:19:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:19:Thread-4:Waiting for the player
+2019-06-26 13:12:20:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:20:Thread-4:Waiting for the player
+2019-06-26 13:12:21:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:21:Thread-4:Waiting for the player
+2019-06-26 13:12:22:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:22:Thread-4:Waiting for the player
+2019-06-26 13:12:23:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:23:Thread-4:Waiting for the player
+2019-06-26 13:12:24:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:24:Thread-4:Waiting for the player
+2019-06-26 13:12:25:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:25:Thread-4:Waiting for the player
+2019-06-26 13:12:26:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:26:Thread-4:Waiting for the player
+2019-06-26 13:12:27:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:27:Thread-4:Waiting for the player
+2019-06-26 13:12:28:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:28:Thread-4:Waiting for the player
+2019-06-26 13:12:29:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:29:Thread-4:Waiting for the player
+2019-06-26 13:12:30:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:30:Thread-4:Waiting for the player
+2019-06-26 13:12:31:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:31:Thread-4:Waiting for the player
+2019-06-26 13:12:32:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:32:Thread-4:Waiting for the player
+2019-06-26 13:12:33:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:33:Thread-4:Waiting for the player
+2019-06-26 13:12:34:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:34:Thread-4:Waiting for the player
+2019-06-26 13:12:35:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:35:Thread-4:Waiting for the player
+2019-06-26 13:12:36:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:36:Thread-4:Waiting for the player
+2019-06-26 13:12:37:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:37:Thread-4:Waiting for the player
+2019-06-26 13:12:38:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:38:Thread-4:Waiting for the player
+2019-06-26 13:12:39:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:39:Thread-4:Waiting for the player
+2019-06-26 13:12:40:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:40:Thread-4:Waiting for the player
+2019-06-26 13:12:41:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:41:Thread-4:Waiting for the player
+2019-06-26 13:12:42:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:42:Thread-4:Waiting for the player
+2019-06-26 13:12:43:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:43:Thread-4:Waiting for the player
+2019-06-26 13:12:44:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:44:Thread-4:Waiting for the player
+2019-06-26 13:12:44:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 13:12:45:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:12:45:Thread-4:Waiting for the player
+2019-06-26 13:12:46:MainThread:Connection from client: ('192.168.0.11', 44696)
+2019-06-26 13:12:46:Thread-5:Client: ('192.168.0.11', 44696) INITIALIZE
+2019-06-26 13:12:46:MainThread:Listening
+2019-06-26 13:12:46:Thread-5:Client: ('192.168.0.11', 44696) INDEX GRANTING
+2019-06-26 13:12:46:Thread-5:Client: ('192.168.0.11', 44696) INDEX GRANTED
+2019-06-26 13:12:46:Thread-5:Client: ('192.168.0.11', 44696) WAIT FOR THE PLAYER
+2019-06-26 13:12:46:Thread-5:LENGTH OF PLAYER LIST: 2
+2019-06-26 13:12:46:Thread-4:Client: ('192.168.0.11', 44694), IS SECOND: , True
+2019-06-26 13:12:47:Thread-5:Client: ('192.168.0.11', 44696), IS SECOND: , False
+2019-06-26 13:13:10:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 13:13:11:MainThread:Connection from client: ('192.168.0.11', 44698)
+2019-06-26 13:13:11:Thread-6:Client: ('192.168.0.11', 44698) INITIALIZE
+2019-06-26 13:13:11:MainThread:Listening
+2019-06-26 13:13:11:Thread-6:Client: ('192.168.0.11', 44698) INDEX GRANTING
+2019-06-26 13:13:11:Thread-6:Client: ('192.168.0.11', 44698) INDEX GRANTED
+2019-06-26 13:13:11:Thread-6:Client: ('192.168.0.11', 44698) WAIT FOR THE PLAYER
+2019-06-26 13:13:11:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:11:Thread-6:Waiting for the player
+2019-06-26 13:13:11:Thread-6:Waiting for the player
+2019-06-26 13:13:11:Thread-6:Waiting for the player
+2019-06-26 13:13:12:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:12:Thread-6:Waiting for the player
+2019-06-26 13:13:12:Thread-6:Waiting for the player
+2019-06-26 13:13:12:Thread-6:Waiting for the player
+2019-06-26 13:13:13:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:13:Thread-6:Waiting for the player
+2019-06-26 13:13:13:Thread-6:Waiting for the player
+2019-06-26 13:13:13:Thread-6:Waiting for the player
+2019-06-26 13:13:14:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:14:Thread-6:Waiting for the player
+2019-06-26 13:13:14:Thread-6:Waiting for the player
+2019-06-26 13:13:14:Thread-6:Waiting for the player
+2019-06-26 13:13:15:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:15:Thread-6:Waiting for the player
+2019-06-26 13:13:15:Thread-6:Waiting for the player
+2019-06-26 13:13:15:Thread-6:Waiting for the player
+2019-06-26 13:13:16:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:16:Thread-6:Waiting for the player
+2019-06-26 13:13:16:Thread-6:Waiting for the player
+2019-06-26 13:13:16:Thread-6:Waiting for the player
+2019-06-26 13:13:17:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:17:Thread-6:Waiting for the player
+2019-06-26 13:13:17:Thread-6:Waiting for the player
+2019-06-26 13:13:17:Thread-6:Waiting for the player
+2019-06-26 13:13:18:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:18:Thread-6:Waiting for the player
+2019-06-26 13:13:18:Thread-6:Waiting for the player
+2019-06-26 13:13:18:Thread-6:Waiting for the player
+2019-06-26 13:13:19:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:19:Thread-6:Waiting for the player
+2019-06-26 13:13:19:Thread-6:Waiting for the player
+2019-06-26 13:13:19:Thread-6:Waiting for the player
+2019-06-26 13:13:20:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:20:Thread-6:Waiting for the player
+2019-06-26 13:13:20:Thread-6:Waiting for the player
+2019-06-26 13:13:20:Thread-6:Waiting for the player
+2019-06-26 13:13:21:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:21:Thread-6:Waiting for the player
+2019-06-26 13:13:21:Thread-6:Waiting for the player
+2019-06-26 13:13:21:Thread-6:Waiting for the player
+2019-06-26 13:13:22:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:22:Thread-6:Waiting for the player
+2019-06-26 13:13:22:Thread-6:Waiting for the player
+2019-06-26 13:13:22:Thread-6:Waiting for the player
+2019-06-26 13:13:23:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:23:Thread-6:Waiting for the player
+2019-06-26 13:13:23:Thread-6:Waiting for the player
+2019-06-26 13:13:23:Thread-6:Waiting for the player
+2019-06-26 13:13:24:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:24:Thread-6:Waiting for the player
+2019-06-26 13:13:24:Thread-6:Waiting for the player
+2019-06-26 13:13:24:Thread-6:Waiting for the player
+2019-06-26 13:13:25:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:25:Thread-6:Waiting for the player
+2019-06-26 13:13:25:Thread-6:Waiting for the player
+2019-06-26 13:13:25:Thread-6:Waiting for the player
+2019-06-26 13:13:26:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:26:Thread-6:Waiting for the player
+2019-06-26 13:13:26:Thread-6:Waiting for the player
+2019-06-26 13:13:26:Thread-6:Waiting for the player
+2019-06-26 13:13:27:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:27:Thread-6:Waiting for the player
+2019-06-26 13:13:27:Thread-6:Waiting for the player
+2019-06-26 13:13:27:Thread-6:Waiting for the player
+2019-06-26 13:13:28:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:28:Thread-6:Waiting for the player
+2019-06-26 13:13:28:Thread-6:Waiting for the player
+2019-06-26 13:13:28:Thread-6:Waiting for the player
+2019-06-26 13:13:29:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:29:Thread-6:Waiting for the player
+2019-06-26 13:13:29:Thread-6:Waiting for the player
+2019-06-26 13:13:29:Thread-6:Waiting for the player
+2019-06-26 13:13:30:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:30:Thread-6:Waiting for the player
+2019-06-26 13:13:30:Thread-6:Waiting for the player
+2019-06-26 13:13:30:Thread-6:Waiting for the player
+2019-06-26 13:13:31:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:31:Thread-6:Waiting for the player
+2019-06-26 13:13:31:Thread-6:Waiting for the player
+2019-06-26 13:13:31:Thread-6:Waiting for the player
+2019-06-26 13:13:32:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:32:Thread-6:Waiting for the player
+2019-06-26 13:13:32:Thread-6:Waiting for the player
+2019-06-26 13:13:32:Thread-6:Waiting for the player
+2019-06-26 13:13:33:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:33:Thread-6:Waiting for the player
+2019-06-26 13:13:33:Thread-6:Waiting for the player
+2019-06-26 13:13:33:Thread-6:Waiting for the player
+2019-06-26 13:13:34:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:34:Thread-6:Waiting for the player
+2019-06-26 13:13:34:Thread-6:Waiting for the player
+2019-06-26 13:13:34:Thread-6:Waiting for the player
+2019-06-26 13:13:35:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:35:Thread-6:Waiting for the player
+2019-06-26 13:13:35:Thread-6:Waiting for the player
+2019-06-26 13:13:35:Thread-6:Waiting for the player
+2019-06-26 13:13:36:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:36:Thread-6:Waiting for the player
+2019-06-26 13:13:36:Thread-6:Waiting for the player
+2019-06-26 13:13:36:Thread-6:Waiting for the player
+2019-06-26 13:13:37:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:37:Thread-6:Waiting for the player
+2019-06-26 13:13:37:Thread-6:Waiting for the player
+2019-06-26 13:13:37:Thread-6:Waiting for the player
+2019-06-26 13:13:38:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:38:Thread-6:Waiting for the player
+2019-06-26 13:13:38:Thread-6:Waiting for the player
+2019-06-26 13:13:38:Thread-6:Waiting for the player
+2019-06-26 13:13:39:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:39:Thread-6:Waiting for the player
+2019-06-26 13:13:39:Thread-6:Waiting for the player
+2019-06-26 13:13:39:Thread-6:Waiting for the player
+2019-06-26 13:13:40:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:40:Thread-6:Waiting for the player
+2019-06-26 13:13:40:Thread-6:Waiting for the player
+2019-06-26 13:13:40:Thread-6:Waiting for the player
+2019-06-26 13:13:41:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:41:Thread-6:Waiting for the player
+2019-06-26 13:13:41:Thread-6:Waiting for the player
+2019-06-26 13:13:41:Thread-6:Waiting for the player
+2019-06-26 13:13:42:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:42:Thread-6:Waiting for the player
+2019-06-26 13:13:42:Thread-6:Waiting for the player
+2019-06-26 13:13:42:Thread-6:Waiting for the player
+2019-06-26 13:13:43:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:43:Thread-6:Waiting for the player
+2019-06-26 13:13:43:Thread-6:Waiting for the player
+2019-06-26 13:13:43:Thread-6:Waiting for the player
+2019-06-26 13:13:44:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:44:Thread-6:Waiting for the player
+2019-06-26 13:13:44:Thread-6:Waiting for the player
+2019-06-26 13:13:44:Thread-6:Waiting for the player
+2019-06-26 13:13:45:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:45:Thread-6:Waiting for the player
+2019-06-26 13:13:45:Thread-6:Waiting for the player
+2019-06-26 13:13:45:Thread-6:Waiting for the player
+2019-06-26 13:13:46:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:46:Thread-6:Waiting for the player
+2019-06-26 13:13:46:Thread-6:Waiting for the player
+2019-06-26 13:13:46:Thread-6:Waiting for the player
+2019-06-26 13:13:47:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:47:Thread-6:Waiting for the player
+2019-06-26 13:13:47:Thread-6:Waiting for the player
+2019-06-26 13:13:47:Thread-6:Waiting for the player
+2019-06-26 13:13:48:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:48:Thread-6:Waiting for the player
+2019-06-26 13:13:48:Thread-6:Waiting for the player
+2019-06-26 13:13:48:Thread-6:Waiting for the player
+2019-06-26 13:13:49:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:49:Thread-6:Waiting for the player
+2019-06-26 13:13:49:Thread-6:Waiting for the player
+2019-06-26 13:13:49:Thread-6:Waiting for the player
+2019-06-26 13:13:50:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:50:Thread-6:Waiting for the player
+2019-06-26 13:13:50:Thread-6:Waiting for the player
+2019-06-26 13:13:50:Thread-6:Waiting for the player
+2019-06-26 13:13:51:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:51:Thread-6:Waiting for the player
+2019-06-26 13:13:51:Thread-6:Waiting for the player
+2019-06-26 13:13:51:Thread-6:Waiting for the player
+2019-06-26 13:13:52:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:52:Thread-6:Waiting for the player
+2019-06-26 13:13:52:Thread-6:Waiting for the player
+2019-06-26 13:13:52:Thread-6:Waiting for the player
+2019-06-26 13:13:53:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:53:Thread-6:Waiting for the player
+2019-06-26 13:13:53:Thread-6:Waiting for the player
+2019-06-26 13:13:53:Thread-6:Waiting for the player
+2019-06-26 13:13:54:Thread-6:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:13:54:Thread-6:Waiting for the player
+2019-06-26 13:13:54:Thread-6:Waiting for the player
+2019-06-26 13:13:54:Thread-6:Waiting for the player
+2019-06-26 13:13:55:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:13:55:Thread-6:Waiting for the player
+2019-06-26 13:13:56:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:13:56:Thread-6:Waiting for the player
+2019-06-26 13:13:57:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:13:57:Thread-6:Waiting for the player
+2019-06-26 13:13:58:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:13:58:Thread-6:Waiting for the player
+2019-06-26 13:13:59:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:13:59:Thread-6:Waiting for the player
+2019-06-26 13:14:00:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:14:00:Thread-6:Waiting for the player
+2019-06-26 13:14:01:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:14:01:Thread-6:Waiting for the player
+2019-06-26 13:14:02:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:14:02:Thread-6:Waiting for the player
+2019-06-26 13:14:03:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:14:03:Thread-6:Waiting for the player
+2019-06-26 13:14:04:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:14:04:Thread-6:Waiting for the player
+2019-06-26 13:14:05:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:14:05:Thread-6:Waiting for the player
+2019-06-26 13:14:06:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:14:06:Thread-6:Waiting for the player
+2019-06-26 13:14:07:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:14:07:Thread-6:Waiting for the player
+2019-06-26 13:14:08:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:14:08:Thread-6:Waiting for the player
+2019-06-26 13:14:09:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:14:09:Thread-6:Waiting for the player
+2019-06-26 13:14:10:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:14:10:Thread-6:Waiting for the player
+2019-06-26 13:14:11:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:14:11:Thread-6:Waiting for the player
+2019-06-26 13:14:12:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:14:12:Thread-6:Waiting for the player
+2019-06-26 13:14:13:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:14:13:Thread-6:Waiting for the player
+2019-06-26 13:14:14:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:14:14:Thread-6:Waiting for the player
+2019-06-26 13:14:15:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:14:15:Thread-6:Waiting for the player
+2019-06-26 13:14:16:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:14:16:Thread-6:Waiting for the player
+2019-06-26 13:14:17:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:14:17:Thread-6:Waiting for the player
+2019-06-26 13:14:18:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:14:18:Thread-6:Waiting for the player
+2019-06-26 13:14:18:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 13:14:19:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:14:19:Thread-6:Waiting for the player
+2019-06-26 13:14:19:MainThread:Connection from client: ('192.168.0.11', 44704)
+2019-06-26 13:14:19:Thread-7:Client: ('192.168.0.11', 44704) INITIALIZE
+2019-06-26 13:14:19:MainThread:Listening
+2019-06-26 13:14:19:Thread-7:Client: ('192.168.0.11', 44704) INDEX GRANTING
+2019-06-26 13:14:19:Thread-7:Client: ('192.168.0.11', 44704) INDEX GRANTED
+2019-06-26 13:14:19:Thread-7:Client: ('192.168.0.11', 44704) WAIT FOR THE PLAYER
+2019-06-26 13:14:19:Thread-7:LENGTH OF PLAYER LIST: 2
+2019-06-26 13:14:20:Thread-6:Client: ('192.168.0.11', 44698), IS SECOND: , True
+2019-06-26 13:14:20:Thread-7:Client: ('192.168.0.11', 44704), IS SECOND: , False
+2019-06-26 13:15:20:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 13:15:21:MainThread:Connection from client: ('192.168.0.11', 44706)
+2019-06-26 13:15:21:Thread-8:Client: ('192.168.0.11', 44706) INITIALIZE
+2019-06-26 13:15:21:MainThread:Listening
+2019-06-26 13:15:21:Thread-8:Client: ('192.168.0.11', 44706) INDEX GRANTING
+2019-06-26 13:15:21:Thread-8:Client: ('192.168.0.11', 44706) INDEX GRANTED
+2019-06-26 13:15:21:Thread-8:Client: ('192.168.0.11', 44706) WAIT FOR THE PLAYER
+2019-06-26 13:15:21:Thread-8:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:15:21:Thread-8:Waiting for the player
+2019-06-26 13:15:21:Thread-8:Waiting for the player
+2019-06-26 13:15:21:Thread-8:Waiting for the player
+2019-06-26 13:15:22:Thread-8:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:15:22:Thread-8:Waiting for the player
+2019-06-26 13:15:22:Thread-8:Waiting for the player
+2019-06-26 13:15:22:Thread-8:Waiting for the player
+2019-06-26 13:15:23:Thread-8:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:15:23:Thread-8:Waiting for the player
+2019-06-26 13:15:23:Thread-8:Waiting for the player
+2019-06-26 13:15:23:Thread-8:Waiting for the player
+2019-06-26 13:15:24:Thread-8:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:15:24:Thread-8:Waiting for the player
+2019-06-26 13:15:24:Thread-8:Waiting for the player
+2019-06-26 13:15:24:Thread-8:Waiting for the player
+2019-06-26 13:15:25:Thread-8:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:15:25:Thread-8:Waiting for the player
+2019-06-26 13:15:25:Thread-8:Waiting for the player
+2019-06-26 13:15:25:Thread-8:Waiting for the player
+2019-06-26 13:15:26:Thread-8:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:15:26:Thread-8:Waiting for the player
+2019-06-26 13:15:26:Thread-8:Waiting for the player
+2019-06-26 13:15:26:Thread-8:Waiting for the player
+2019-06-26 13:15:27:Thread-8:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:15:27:Thread-8:Waiting for the player
+2019-06-26 13:15:27:Thread-8:Waiting for the player
+2019-06-26 13:15:27:Thread-8:Waiting for the player
+2019-06-26 13:15:28:Thread-8:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:15:28:Thread-8:Waiting for the player
+2019-06-26 13:15:28:Thread-8:Waiting for the player
+2019-06-26 13:15:28:Thread-8:Waiting for the player
+2019-06-26 13:15:29:Thread-8:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:15:29:Thread-8:Waiting for the player
+2019-06-26 13:15:29:Thread-8:Waiting for the player
+2019-06-26 13:15:29:Thread-8:Waiting for the player
+2019-06-26 13:15:30:Thread-8:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:15:30:Thread-8:Waiting for the player
+2019-06-26 13:15:30:Thread-8:Waiting for the player
+2019-06-26 13:15:30:Thread-8:Waiting for the player
+2019-06-26 13:15:31:Thread-8:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:15:31:Thread-8:Waiting for the player
+2019-06-26 13:15:31:Thread-8:Waiting for the player
+2019-06-26 13:15:31:Thread-8:Waiting for the player
+2019-06-26 13:15:32:Thread-8:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:15:32:Thread-8:Waiting for the player
+2019-06-26 13:15:32:Thread-8:Waiting for the player
+2019-06-26 13:15:32:Thread-8:Waiting for the player
+2019-06-26 13:15:33:Thread-8:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:15:33:Thread-8:Waiting for the player
+2019-06-26 13:15:33:Thread-8:Waiting for the player
+2019-06-26 13:15:33:Thread-8:Waiting for the player
+2019-06-26 13:15:34:Thread-8:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:15:34:Thread-8:Waiting for the player
+2019-06-26 13:15:34:Thread-8:Waiting for the player
+2019-06-26 13:15:34:Thread-8:Waiting for the player
+2019-06-26 13:15:35:Thread-8:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:15:35:Thread-8:Waiting for the player
+2019-06-26 13:15:35:Thread-8:Waiting for the player
+2019-06-26 13:15:35:Thread-8:Waiting for the player
+2019-06-26 13:15:36:Thread-8:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:15:36:Thread-8:Waiting for the player
+2019-06-26 13:15:36:Thread-8:Waiting for the player
+2019-06-26 13:15:36:Thread-8:Waiting for the player
+2019-06-26 13:15:37:Thread-8:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:15:37:Thread-8:Waiting for the player
+2019-06-26 13:15:37:Thread-8:Waiting for the player
+2019-06-26 13:15:37:Thread-8:Waiting for the player
+2019-06-26 13:15:38:Thread-8:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:15:38:Thread-8:Waiting for the player
+2019-06-26 13:15:38:Thread-8:Waiting for the player
+2019-06-26 13:15:38:Thread-8:Waiting for the player
+2019-06-26 13:15:39:Thread-8:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:15:39:Thread-8:Waiting for the player
+2019-06-26 13:15:39:Thread-8:Waiting for the player
+2019-06-26 13:15:39:Thread-8:Waiting for the player
+2019-06-26 13:15:40:Thread-8:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:15:40:Thread-8:Waiting for the player
+2019-06-26 13:15:40:Thread-8:Waiting for the player
+2019-06-26 13:15:40:Thread-8:Waiting for the player
+2019-06-26 13:15:41:Thread-8:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:15:41:Thread-8:Waiting for the player
+2019-06-26 13:15:41:Thread-8:Waiting for the player
+2019-06-26 13:15:41:Thread-8:Waiting for the player
+2019-06-26 13:15:42:Thread-8:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:15:42:Thread-8:Waiting for the player
+2019-06-26 13:15:42:Thread-8:Waiting for the player
+2019-06-26 13:15:42:Thread-8:Waiting for the player
+2019-06-26 13:15:43:Thread-8:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:15:43:Thread-8:Waiting for the player
+2019-06-26 13:15:43:Thread-8:Waiting for the player
+2019-06-26 13:15:43:Thread-8:Waiting for the player
+2019-06-26 13:15:44:Thread-8:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:15:44:Thread-8:Waiting for the player
+2019-06-26 13:15:44:Thread-8:Waiting for the player
+2019-06-26 13:15:44:Thread-8:Waiting for the player
+2019-06-26 13:15:45:Thread-8:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:15:45:Thread-8:Waiting for the player
+2019-06-26 13:15:45:Thread-8:Waiting for the player
+2019-06-26 13:15:45:Thread-8:Waiting for the player
+2019-06-26 13:15:45:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 13:15:46:Thread-8:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:15:46:Thread-8:Waiting for the player
+2019-06-26 13:15:46:Thread-8:Waiting for the player
+2019-06-26 13:15:46:Thread-8:Waiting for the player
+2019-06-26 13:15:46:MainThread:Connection from client: ('192.168.0.11', 44708)
+2019-06-26 13:15:46:Thread-9:Client: ('192.168.0.11', 44708) INITIALIZE
+2019-06-26 13:15:46:MainThread:Listening
+2019-06-26 13:15:46:Thread-9:Client: ('192.168.0.11', 44708) INDEX GRANTING
+2019-06-26 13:15:46:Thread-9:Client: ('192.168.0.11', 44708) INDEX GRANTED
+2019-06-26 13:15:46:Thread-9:Client: ('192.168.0.11', 44708) WAIT FOR THE PLAYER
+2019-06-26 13:15:46:Thread-9:LENGTH OF PLAYER LIST: 4
+2019-06-26 13:15:46:Thread-9:Waiting for the player
+2019-06-26 13:15:46:Thread-9:Waiting for the player
+2019-06-26 13:15:47:Thread-8:Client: ('192.168.0.11', 44706), IS SECOND: , True
+2019-06-26 13:15:47:Thread-9:Client: ('192.168.0.11', 44708), IS SECOND: , False
+2019-06-26 13:16:33:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 13:16:34:MainThread:Connection from client: ('192.168.0.11', 44710)
+2019-06-26 13:16:34:Thread-10:Client: ('192.168.0.11', 44710) INITIALIZE
+2019-06-26 13:16:34:Thread-10:Client: ('192.168.0.11', 44710) INDEX GRANTING
+2019-06-26 13:16:34:Thread-10:Client: ('192.168.0.11', 44710) INDEX GRANTED
+2019-06-26 13:16:34:Thread-10:Client: ('192.168.0.11', 44710) WAIT FOR THE PLAYER
+2019-06-26 13:16:34:Thread-10:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:16:34:MainThread:Listening
+2019-06-26 13:16:34:Thread-10:Waiting for the player
+2019-06-26 13:16:34:Thread-10:Waiting for the player
+2019-06-26 13:16:34:Thread-10:Waiting for the player
+2019-06-26 13:16:35:Thread-10:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:16:35:Thread-10:Waiting for the player
+2019-06-26 13:16:35:Thread-10:Waiting for the player
+2019-06-26 13:16:35:Thread-10:Waiting for the player
+2019-06-26 13:16:36:Thread-10:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:16:36:Thread-10:Waiting for the player
+2019-06-26 13:16:36:Thread-10:Waiting for the player
+2019-06-26 13:16:36:Thread-10:Waiting for the player
+2019-06-26 13:16:37:Thread-10:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:16:37:Thread-10:Waiting for the player
+2019-06-26 13:16:37:Thread-10:Waiting for the player
+2019-06-26 13:16:37:Thread-10:Waiting for the player
+2019-06-26 13:16:38:Thread-10:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:16:38:Thread-10:Waiting for the player
+2019-06-26 13:16:38:Thread-10:Waiting for the player
+2019-06-26 13:16:38:Thread-10:Waiting for the player
+2019-06-26 13:16:39:Thread-10:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:16:39:Thread-10:Waiting for the player
+2019-06-26 13:16:39:Thread-10:Waiting for the player
+2019-06-26 13:16:39:Thread-10:Waiting for the player
+2019-06-26 13:16:40:Thread-10:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:16:40:Thread-10:Waiting for the player
+2019-06-26 13:16:40:Thread-10:Waiting for the player
+2019-06-26 13:16:40:Thread-10:Waiting for the player
+2019-06-26 13:16:41:Thread-10:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:16:41:Thread-10:Waiting for the player
+2019-06-26 13:16:41:Thread-10:Waiting for the player
+2019-06-26 13:16:41:Thread-10:Waiting for the player
+2019-06-26 13:16:42:Thread-10:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:16:42:Thread-10:Waiting for the player
+2019-06-26 13:16:42:Thread-10:Waiting for the player
+2019-06-26 13:16:42:Thread-10:Waiting for the player
+2019-06-26 13:16:43:Thread-10:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:16:43:Thread-10:Waiting for the player
+2019-06-26 13:16:43:Thread-10:Waiting for the player
+2019-06-26 13:16:43:Thread-10:Waiting for the player
+2019-06-26 13:16:44:Thread-10:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:16:44:Thread-10:Waiting for the player
+2019-06-26 13:16:44:Thread-10:Waiting for the player
+2019-06-26 13:16:44:Thread-10:Waiting for the player
+2019-06-26 13:16:45:Thread-10:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:16:45:Thread-10:Waiting for the player
+2019-06-26 13:16:45:Thread-10:Waiting for the player
+2019-06-26 13:16:45:Thread-10:Waiting for the player
+2019-06-26 13:16:46:Thread-10:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:16:46:Thread-10:Waiting for the player
+2019-06-26 13:16:46:Thread-10:Waiting for the player
+2019-06-26 13:16:46:Thread-10:Waiting for the player
+2019-06-26 13:16:47:Thread-10:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:16:47:Thread-10:Waiting for the player
+2019-06-26 13:16:47:Thread-10:Waiting for the player
+2019-06-26 13:16:47:Thread-10:Waiting for the player
+2019-06-26 13:16:48:Thread-10:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:16:48:Thread-10:Waiting for the player
+2019-06-26 13:16:48:Thread-10:Waiting for the player
+2019-06-26 13:16:48:Thread-10:Waiting for the player
+2019-06-26 13:16:49:Thread-10:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:16:49:Thread-10:Waiting for the player
+2019-06-26 13:16:49:Thread-10:Waiting for the player
+2019-06-26 13:16:49:Thread-10:Waiting for the player
+2019-06-26 13:16:50:Thread-10:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:16:50:Thread-10:Waiting for the player
+2019-06-26 13:16:50:Thread-10:Waiting for the player
+2019-06-26 13:16:50:Thread-10:Waiting for the player
+2019-06-26 13:16:51:Thread-10:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:16:51:Thread-10:Waiting for the player
+2019-06-26 13:16:51:Thread-10:Waiting for the player
+2019-06-26 13:16:51:Thread-10:Waiting for the player
+2019-06-26 13:16:52:Thread-10:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:16:52:Thread-10:Waiting for the player
+2019-06-26 13:16:52:Thread-10:Waiting for the player
+2019-06-26 13:16:52:Thread-10:Waiting for the player
+2019-06-26 13:16:53:Thread-10:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:16:53:Thread-10:Waiting for the player
+2019-06-26 13:16:53:Thread-10:Waiting for the player
+2019-06-26 13:16:53:Thread-10:Waiting for the player
+2019-06-26 13:16:54:Thread-10:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:16:54:Thread-10:Waiting for the player
+2019-06-26 13:16:54:Thread-10:Waiting for the player
+2019-06-26 13:16:54:Thread-10:Waiting for the player
+2019-06-26 13:16:55:Thread-10:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:16:55:Thread-10:Waiting for the player
+2019-06-26 13:16:55:Thread-10:Waiting for the player
+2019-06-26 13:16:55:Thread-10:Waiting for the player
+2019-06-26 13:16:56:Thread-10:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:16:56:Thread-10:Waiting for the player
+2019-06-26 13:16:56:Thread-10:Waiting for the player
+2019-06-26 13:16:56:Thread-10:Waiting for the player
+2019-06-26 13:16:57:Thread-10:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:16:57:Thread-10:Waiting for the player
+2019-06-26 13:16:57:Thread-10:Waiting for the player
+2019-06-26 13:16:57:Thread-10:Waiting for the player
+2019-06-26 13:16:58:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 13:16:58:Thread-10:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:16:58:Thread-10:Waiting for the player
+2019-06-26 13:16:58:Thread-10:Waiting for the player
+2019-06-26 13:16:58:Thread-10:Waiting for the player
+2019-06-26 13:16:59:MainThread:Connection from client: ('192.168.0.11', 44712)
+2019-06-26 13:16:59:Thread-11:Client: ('192.168.0.11', 44712) INITIALIZE
+2019-06-26 13:16:59:MainThread:Listening
+2019-06-26 13:16:59:Thread-11:Client: ('192.168.0.11', 44712) INDEX GRANTING
+2019-06-26 13:16:59:Thread-11:Client: ('192.168.0.11', 44712) INDEX GRANTED
+2019-06-26 13:16:59:Thread-11:Client: ('192.168.0.11', 44712) WAIT FOR THE PLAYER
+2019-06-26 13:16:59:Thread-11:LENGTH OF PLAYER LIST: 4
+2019-06-26 13:16:59:Thread-11:Waiting for the player
+2019-06-26 13:16:59:Thread-11:Waiting for the player
+2019-06-26 13:16:59:Thread-10:Client: ('192.168.0.11', 44710), IS SECOND: , True
+2019-06-26 13:17:00:Thread-11:Client: ('192.168.0.11', 44712), IS SECOND: , False
+2019-06-26 13:19:12:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 13:19:13:MainThread:Connection from client: ('192.168.0.11', 44716)
+2019-06-26 13:19:13:Thread-12:Client: ('192.168.0.11', 44716) INITIALIZE
+2019-06-26 13:19:13:Thread-12:Client: ('192.168.0.11', 44716) INDEX GRANTING
+2019-06-26 13:19:13:Thread-12:Client: ('192.168.0.11', 44716) INDEX GRANTED
+2019-06-26 13:19:13:Thread-12:Client: ('192.168.0.11', 44716) WAIT FOR THE PLAYER
+2019-06-26 13:19:13:Thread-12:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:19:13:Thread-12:Waiting for the player
+2019-06-26 13:19:13:Thread-12:Waiting for the player
+2019-06-26 13:19:13:MainThread:Listening
+2019-06-26 13:19:13:Thread-12:Waiting for the player
+2019-06-26 13:19:14:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 13:19:14:Thread-12:LENGTH OF PLAYER LIST: 3
+2019-06-26 13:19:14:Thread-12:Waiting for the player
+2019-06-26 13:19:14:Thread-12:Waiting for the player
+2019-06-26 13:19:14:Thread-12:Waiting for the player
+2019-06-26 13:19:15:MainThread:Connection from client: ('192.168.0.11', 44718)
+2019-06-26 13:19:15:Thread-13:Client: ('192.168.0.11', 44718) INITIALIZE
+2019-06-26 13:19:15:MainThread:Listening
+2019-06-26 13:19:15:Thread-13:Client: ('192.168.0.11', 44718) INDEX GRANTING
+2019-06-26 13:19:15:Thread-13:Client: ('192.168.0.11', 44718) INDEX GRANTED
+2019-06-26 13:19:15:Thread-13:Client: ('192.168.0.11', 44718) WAIT FOR THE PLAYER
+2019-06-26 13:19:15:Thread-13:LENGTH OF PLAYER LIST: 4
+2019-06-26 13:19:15:Thread-13:Waiting for the player
+2019-06-26 13:19:15:Thread-13:Waiting for the player
+2019-06-26 13:19:15:Thread-12:Client: ('192.168.0.11', 44716), IS SECOND: , True
+2019-06-26 13:19:16:Thread-13:Client: ('192.168.0.11', 44718), IS SECOND: , False
+2019-06-26 13:23:26:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 13:23:27:MainThread:Connection from client: ('192.168.0.11', 44726)
+2019-06-26 13:23:27:Thread-14:Client: ('192.168.0.11', 44726) INITIALIZE
+2019-06-26 13:23:27:MainThread:Listening
+2019-06-26 13:23:27:Thread-14:Client: ('192.168.0.11', 44726) INDEX GRANTING
+2019-06-26 13:23:27:Thread-14:Client: ('192.168.0.11', 44726) INDEX GRANTED
+2019-06-26 13:23:27:Thread-14:Client: ('192.168.0.11', 44726) WAIT FOR THE PLAYER
+2019-06-26 13:23:27:Thread-14:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:23:27:Thread-14:Waiting for the player
+2019-06-26 13:23:28:Thread-14:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:23:28:Thread-14:Waiting for the player
+2019-06-26 13:23:29:Thread-14:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:23:29:Thread-14:Waiting for the player
+2019-06-26 13:23:30:Thread-14:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:23:30:Thread-14:Waiting for the player
+2019-06-26 13:23:30:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 13:23:31:Thread-14:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:23:31:Thread-14:Waiting for the player
+2019-06-26 13:23:31:MainThread:Connection from client: ('192.168.0.11', 44728)
+2019-06-26 13:23:31:Thread-15:Client: ('192.168.0.11', 44728) INITIALIZE
+2019-06-26 13:23:31:MainThread:Listening
+2019-06-26 13:23:31:Thread-15:Client: ('192.168.0.11', 44728) INDEX GRANTING
+2019-06-26 13:23:31:Thread-15:Client: ('192.168.0.11', 44728) INDEX GRANTED
+2019-06-26 13:23:31:Thread-15:Client: ('192.168.0.11', 44728) WAIT FOR THE PLAYER
+2019-06-26 13:23:31:Thread-15:LENGTH OF PLAYER LIST: 2
+2019-06-26 13:23:32:Thread-14:Client: ('192.168.0.11', 44726), IS SECOND: , True
+2019-06-26 13:23:32:Thread-15:Client: ('192.168.0.11', 44728), IS SECOND: , False
+2019-06-26 13:27:21:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 13:27:26:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 13:30:59:MainThread:Started listening to client
+2019-06-26 13:30:59:MainThread:Listening
+2019-06-26 13:30:59:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 13:31:30:MainThread:Started listening to client
+2019-06-26 13:31:30:MainThread:Listening
+2019-06-26 13:31:30:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 13:31:32:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 13:31:33:MainThread:Connection from client: ('192.168.0.33', 44164)
+2019-06-26 13:31:33:Thread-2:Client: ('192.168.0.33', 44164) INITIALIZE
+2019-06-26 13:31:33:MainThread:Listening
+2019-06-26 13:31:33:Thread-2:Client: ('192.168.0.33', 44164) INDEX GRANTING
+2019-06-26 13:31:33:Thread-2:Client: ('192.168.0.33', 44164) INDEX GRANTED
+2019-06-26 13:31:33:Thread-2:Client: ('192.168.0.33', 44164) WAIT FOR THE PLAYER
+2019-06-26 13:31:33:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:31:33:Thread-2:Waiting for the player
+2019-06-26 13:31:34:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:31:34:Thread-2:Waiting for the player
+2019-06-26 13:31:35:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 13:31:35:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 13:31:35:Thread-2:Waiting for the player
+2019-06-26 13:31:36:MainThread:Connection from client: ('192.168.0.33', 44166)
+2019-06-26 13:31:36:Thread-3:Client: ('192.168.0.33', 44166) INITIALIZE
+2019-06-26 13:31:36:Thread-3:Client: ('192.168.0.33', 44166) INDEX GRANTING
+2019-06-26 13:31:36:Thread-3:Client: ('192.168.0.33', 44166) INDEX GRANTED
+2019-06-26 13:31:36:Thread-3:Client: ('192.168.0.33', 44166) WAIT FOR THE PLAYER
+2019-06-26 13:31:36:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 13:31:36:MainThread:Listening
+2019-06-26 13:31:36:Thread-2:Client: ('192.168.0.33', 44164), IS SECOND: , True
+2019-06-26 13:31:37:Thread-3:Client: ('192.168.0.33', 44166), IS SECOND: , False
+2019-06-26 13:31:37:Thread-3:Client: ('192.168.0.33', 44166) CONNECTION ESTABLISHED
+2019-06-26 13:31:42:Thread-3:Data to client B: ((6, 2), (2, 4), 'white')
+2019-06-26 13:31:43:Thread-3:Data to client A: EXIT
+2019-06-26 13:37:13:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 13:37:20:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:07:12:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:07:14:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:08:30:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:08:35:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:10:50:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:10:54:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:13:12:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:15:01:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:21:00:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:21:08:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:25:01:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:25:17:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:28:04:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:28:08:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:32:21:MainThread:Started listening to client
+2019-06-26 17:32:21:MainThread:Listening
+2019-06-26 17:32:21:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:32:38:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:32:39:MainThread:Connection from client: ('192.168.0.33', 45546)
+2019-06-26 17:32:39:Thread-2:Client: ('192.168.0.33', 45546) INITIALIZE
+2019-06-26 17:32:39:MainThread:Listening
+2019-06-26 17:32:39:Thread-2:Client: ('192.168.0.33', 45546) INDEX GRANTING
+2019-06-26 17:32:39:Thread-2:Client: ('192.168.0.33', 45546) INDEX GRANTED
+2019-06-26 17:32:39:Thread-2:Client: ('192.168.0.33', 45546) WAIT FOR THE PLAYER
+2019-06-26 17:32:39:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 17:32:39:Thread-2:Waiting for the player
+2019-06-26 17:32:40:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 17:32:40:Thread-2:Waiting for the player
+2019-06-26 17:32:41:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 17:32:41:Thread-2:Waiting for the player
+2019-06-26 17:32:42:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 17:32:42:Thread-2:Waiting for the player
+2019-06-26 17:32:42:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:32:43:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 17:32:43:Thread-2:Waiting for the player
+2019-06-26 17:32:43:MainThread:Connection from client: ('192.168.0.11', 46472)
+2019-06-26 17:32:43:Thread-3:Client: ('192.168.0.11', 46472) INITIALIZE
+2019-06-26 17:32:43:MainThread:Listening
+2019-06-26 17:32:43:Thread-3:Client: ('192.168.0.11', 46472) INDEX GRANTING
+2019-06-26 17:32:43:Thread-3:Client: ('192.168.0.11', 46472) INDEX GRANTED
+2019-06-26 17:32:43:Thread-3:Client: ('192.168.0.11', 46472) WAIT FOR THE PLAYER
+2019-06-26 17:32:43:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 17:32:44:Thread-2:Client: ('192.168.0.33', 45546), IS SECOND: , True
+2019-06-26 17:32:44:Thread-3:Client: ('192.168.0.11', 46472), IS SECOND: , False
+2019-06-26 17:32:44:Thread-3:Client: ('192.168.0.11', 46472) CONNECTION ESTABLISHED
+2019-06-26 17:32:57:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:32:58:MainThread:Connection from client: ('192.168.0.33', 45548)
+2019-06-26 17:32:58:Thread-4:Client: ('192.168.0.33', 45548) INITIALIZE
+2019-06-26 17:32:58:MainThread:Listening
+2019-06-26 17:32:58:Thread-4:Client: ('192.168.0.33', 45548) INDEX GRANTING
+2019-06-26 17:32:58:Thread-4:Client: ('192.168.0.33', 45548) INDEX GRANTED
+2019-06-26 17:32:58:Thread-4:Client: ('192.168.0.33', 45548) WAIT FOR THE PLAYER
+2019-06-26 17:32:58:Thread-4:LENGTH OF PLAYER LIST: 3
+2019-06-26 17:32:58:Thread-4:Waiting for the player
+2019-06-26 17:32:58:Thread-4:Waiting for the player
+2019-06-26 17:32:58:Thread-4:Waiting for the player
+2019-06-26 17:32:59:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:32:59:Thread-4:LENGTH OF PLAYER LIST: 3
+2019-06-26 17:32:59:Thread-4:Waiting for the player
+2019-06-26 17:32:59:Thread-4:Waiting for the player
+2019-06-26 17:32:59:Thread-4:Waiting for the player
+2019-06-26 17:33:00:Thread-4:LENGTH OF PLAYER LIST: 3
+2019-06-26 17:33:00:Thread-4:Waiting for the player
+2019-06-26 17:33:00:Thread-4:Waiting for the player
+2019-06-26 17:33:00:Thread-4:Waiting for the player
+2019-06-26 17:33:00:MainThread:Connection from client: ('192.168.0.11', 46474)
+2019-06-26 17:33:00:Thread-5:Client: ('192.168.0.11', 46474) INITIALIZE
+2019-06-26 17:33:00:MainThread:Listening
+2019-06-26 17:33:00:Thread-5:Client: ('192.168.0.11', 46474) INDEX GRANTING
+2019-06-26 17:33:00:Thread-5:Client: ('192.168.0.11', 46474) INDEX GRANTED
+2019-06-26 17:33:00:Thread-5:Client: ('192.168.0.11', 46474) WAIT FOR THE PLAYER
+2019-06-26 17:33:00:Thread-5:LENGTH OF PLAYER LIST: 4
+2019-06-26 17:33:00:Thread-5:Waiting for the player
+2019-06-26 17:33:00:Thread-5:Waiting for the player
+2019-06-26 17:33:01:Thread-4:Client: ('192.168.0.33', 45548), IS SECOND: , True
+2019-06-26 17:33:01:Thread-5:Client: ('192.168.0.11', 46474), IS SECOND: , False
+2019-06-26 17:33:01:Thread-5:Client: ('192.168.0.11', 46474) CONNECTION ESTABLISHED
+2019-06-26 17:33:18:Thread-3:Data to client B: ((6, 3), (3, 4), 'white')
+2019-06-26 17:33:18:Thread-3:Data to client A: EXIT
+2019-06-26 17:33:30:Thread-5:Data to client B: ((6, 3), (3, 4), 'white')
+2019-06-26 17:33:32:Thread-5:Data to client A: ((1, 4), (4, 3), 'black')
+2019-06-26 17:33:34:Thread-5:Data to client B: ((7, 1), (2, 5), 'white')
+2019-06-26 17:33:39:Thread-5:Data to client A: ((0, 5), (1, 4), 'black')
+2019-06-26 17:33:40:Thread-5:Data to client B: ((6, 4), (4, 4), 'white')
+2019-06-26 17:33:44:Thread-5:Data to client A: ((3, 4), (3, 4), 'black')
+2019-06-26 17:33:46:Thread-5:Data to client B: ((7, 3), (7, 3), 'white')
+2019-06-26 17:33:52:Thread-5:Data to client A: ((0, 3), (4, 1), 'black')
+2019-06-26 17:33:59:Thread-5:Data to client B: ((6, 0), (0, 4), 'white')
+2019-06-26 17:34:01:Thread-5:Data to client A: ((4, 3), (2, 5), 'black')
+2019-06-26 17:34:09:Thread-5:Data to client B: ((6, 1), (2, 5), 'white')
+2019-06-26 17:34:11:Thread-5:Data to client A: ((4, 1), (2, 5), 'black')
+2019-06-26 17:34:19:Thread-5:Data to client B: ((7, 2), (3, 6), 'white')
+2019-06-26 17:34:24:Thread-5:Data to client A: ((1, 4), (1, 4), 'black')
+2019-06-26 17:34:36:Thread-5:Data to client B: ((6, 3), (2, 5), 'white')
+2019-06-26 17:34:39:Thread-5:Data to client A: ((4, 1), (2, 5), 'black')
+2019-06-26 17:34:47:Thread-5:Data to client B: ((7, 4), (4, 6), 'white')
+2019-06-26 17:34:52:Thread-5:Data to client A: ((0, 1), (2, 2), 'black')
+2019-06-26 17:34:55:Thread-5:Data to client B: ((7, 6), (5, 5), 'white')
+2019-06-26 17:35:07:Thread-5:Data to client A: ((5, 2), (2, 4), 'black')
+2019-06-26 17:35:22:Thread-5:Data to client B: ((6, 4), (4, 7), 'white')
+2019-06-26 17:35:25:Thread-5:Data to client A: ((2, 2), (1, 4), 'black')
+2019-06-26 17:35:29:Thread-5:Data to client B: ((5, 5), (3, 4), 'white')
+2019-06-26 17:35:31:Thread-5:Data to client A: ((4, 1), (2, 6), 'black')
+2019-06-26 17:35:34:Thread-5:Data to client B: ((7, 4), (4, 6), 'white')
+2019-06-26 17:42:10:MainThread:Started listening to client
+2019-06-26 17:42:10:MainThread:Listening
+2019-06-26 17:42:10:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:42:12:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:42:13:MainThread:Connection from client: ('192.168.0.33', 45580)
+2019-06-26 17:42:13:Thread-2:Client: ('192.168.0.33', 45580) INITIALIZE
+2019-06-26 17:42:13:MainThread:Listening
+2019-06-26 17:42:13:Thread-2:Client: ('192.168.0.33', 45580) INDEX GRANTING
+2019-06-26 17:42:13:Thread-2:Client: ('192.168.0.33', 45580) INDEX GRANTED
+2019-06-26 17:42:13:Thread-2:Client: ('192.168.0.33', 45580) WAIT FOR THE PLAYER
+2019-06-26 17:42:13:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 17:42:13:Thread-2:Waiting for the player
+2019-06-26 17:42:14:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 17:42:14:Thread-2:Waiting for the player
+2019-06-26 17:42:14:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:42:15:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 17:42:15:Thread-2:Waiting for the player
+2019-06-26 17:42:15:MainThread:Connection from client: ('192.168.0.33', 45582)
+2019-06-26 17:42:15:Thread-3:Client: ('192.168.0.33', 45582) INITIALIZE
+2019-06-26 17:42:15:MainThread:Listening
+2019-06-26 17:42:15:Thread-3:Client: ('192.168.0.33', 45582) INDEX GRANTING
+2019-06-26 17:42:15:Thread-3:Client: ('192.168.0.33', 45582) INDEX GRANTED
+2019-06-26 17:42:15:Thread-3:Client: ('192.168.0.33', 45582) WAIT FOR THE PLAYER
+2019-06-26 17:42:15:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 17:42:16:Thread-2:Client: ('192.168.0.33', 45580), IS SECOND: , True
+2019-06-26 17:42:16:Thread-3:Client: ('192.168.0.33', 45582), IS SECOND: , False
+2019-06-26 17:42:16:Thread-3:Client: ('192.168.0.33', 45582) CONNECTION ESTABLISHED
+2019-06-26 17:42:24:Thread-3:Data to client B: ((6, 5), (5, 4), 'white')
+2019-06-26 17:42:28:Thread-3:Data to client A: ((1, 5), (5, 3), 'black')
+2019-06-26 17:42:38:Thread-3:Data to client B: ((6, 4), (4, 4), 'white')
+2019-06-26 17:42:40:Thread-3:Data to client A: ((1, 3), (3, 3), 'black')
+2019-06-26 17:42:44:Thread-3:Data to client B: ((7, 3), (7, 3), 'white')
+2019-06-26 17:42:48:Thread-3:Data to client A: ((0, 4), (3, 1), 'black')
+2019-06-26 17:42:51:Thread-3:Data to client B: ((3, 7), (5, 3), 'white')
+2019-06-26 17:42:58:Thread-3:Data to client A: ((1, 3), (2, 2), 'black')
+2019-06-26 17:43:01:Thread-3:Data to client B: ((4, 4), (3, 3), 'white')
+2019-06-26 17:43:05:Thread-3:Data to client A: ((2, 2), (3, 3), 'black')
+2019-06-26 17:43:10:Thread-3:Data to client B: WIN
+2019-06-26 17:44:45:MainThread:Started listening to client
+2019-06-26 17:44:45:MainThread:Listening
+2019-06-26 17:44:45:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:44:48:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:44:49:MainThread:Connection from client: ('192.168.0.33', 45592)
+2019-06-26 17:44:49:Thread-2:Client: ('192.168.0.33', 45592) INITIALIZE
+2019-06-26 17:44:49:MainThread:Listening
+2019-06-26 17:44:49:Thread-2:Client: ('192.168.0.33', 45592) INDEX GRANTING
+2019-06-26 17:44:49:Thread-2:Client: ('192.168.0.33', 45592) INDEX GRANTED
+2019-06-26 17:44:49:Thread-2:Client: ('192.168.0.33', 45592) WAIT FOR THE PLAYER
+2019-06-26 17:44:49:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 17:44:49:Thread-2:Waiting for the player
+2019-06-26 17:44:50:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:44:50:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 17:44:50:Thread-2:Waiting for the player
+2019-06-26 17:44:51:MainThread:Connection from client: ('192.168.0.33', 45594)
+2019-06-26 17:44:51:Thread-3:Client: ('192.168.0.33', 45594) INITIALIZE
+2019-06-26 17:44:51:MainThread:Listening
+2019-06-26 17:44:51:Thread-3:Client: ('192.168.0.33', 45594) INDEX GRANTING
+2019-06-26 17:44:51:Thread-3:Client: ('192.168.0.33', 45594) INDEX GRANTED
+2019-06-26 17:44:51:Thread-3:Client: ('192.168.0.33', 45594) WAIT FOR THE PLAYER
+2019-06-26 17:44:51:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 17:44:51:Thread-2:Client: ('192.168.0.33', 45592), IS SECOND: , True
+2019-06-26 17:44:52:Thread-3:Client: ('192.168.0.33', 45594), IS SECOND: , False
+2019-06-26 17:44:52:Thread-3:Client: ('192.168.0.33', 45594) CONNECTION ESTABLISHED
+2019-06-26 17:44:57:Thread-3:Data to client B: ((6, 5), (5, 4), 'white')
+2019-06-26 17:45:01:Thread-3:Data to client A: ((1, 4), (4, 3), 'black')
+2019-06-26 17:45:05:Thread-3:Data to client B: ((4, 5), (4, 3), 'white')
+2019-06-26 17:45:08:Thread-3:Data to client A: ((0, 3), (7, 4), 'black')
+2019-06-26 17:45:12:Thread-3:Data to client B: ((7, 4), (5, 6), 'white')
+2019-06-26 17:45:16:Thread-3:Data to client A: WIN
+2019-06-26 17:46:59:MainThread:Started listening to client
+2019-06-26 17:46:59:MainThread:Listening
+2019-06-26 17:46:59:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:47:01:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:47:02:MainThread:Connection from client: ('192.168.0.33', 45596)
+2019-06-26 17:47:02:Thread-2:Client: ('192.168.0.33', 45596) INITIALIZE
+2019-06-26 17:47:02:MainThread:Listening
+2019-06-26 17:47:02:Thread-2:Client: ('192.168.0.33', 45596) INDEX GRANTING
+2019-06-26 17:47:02:Thread-2:Client: ('192.168.0.33', 45596) INDEX GRANTED
+2019-06-26 17:47:02:Thread-2:Client: ('192.168.0.33', 45596) WAIT FOR THE PLAYER
+2019-06-26 17:47:02:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 17:47:02:Thread-2:Waiting for the player
+2019-06-26 17:47:03:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 17:47:03:Thread-2:Waiting for the player
+2019-06-26 17:47:04:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:47:04:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 17:47:04:Thread-2:Waiting for the player
+2019-06-26 17:47:05:MainThread:Connection from client: ('192.168.0.33', 45598)
+2019-06-26 17:47:05:Thread-3:Client: ('192.168.0.33', 45598) INITIALIZE
+2019-06-26 17:47:05:MainThread:Listening
+2019-06-26 17:47:05:Thread-3:Client: ('192.168.0.33', 45598) INDEX GRANTING
+2019-06-26 17:47:05:Thread-3:Client: ('192.168.0.33', 45598) INDEX GRANTED
+2019-06-26 17:47:05:Thread-3:Client: ('192.168.0.33', 45598) WAIT FOR THE PLAYER
+2019-06-26 17:47:05:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 17:47:05:Thread-2:Client: ('192.168.0.33', 45596), IS SECOND: , True
+2019-06-26 17:47:06:Thread-3:Client: ('192.168.0.33', 45598), IS SECOND: , False
+2019-06-26 17:47:06:Thread-3:Client: ('192.168.0.33', 45598) CONNECTION ESTABLISHED
+2019-06-26 17:47:12:Thread-3:Data to client B: ((6, 2), (2, 4), 'white')
+2019-06-26 17:47:17:Thread-3:Data to client A: ((1, 3), (3, 3), 'black')
+2019-06-26 17:47:19:Thread-3:Data to client B: ((7, 3), (0, 4), 'white')
+2019-06-26 17:47:23:Thread-3:Data to client A: ((0, 4), (3, 1), 'black')
+2019-06-26 17:47:28:Thread-3:Data to client B: WIN
+2019-06-26 17:48:35:MainThread:Started listening to client
+2019-06-26 17:48:35:MainThread:Listening
+2019-06-26 17:48:35:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:48:37:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:48:38:MainThread:Connection from client: ('192.168.0.33', 45606)
+2019-06-26 17:48:38:Thread-2:Client: ('192.168.0.33', 45606) INITIALIZE
+2019-06-26 17:48:38:MainThread:Listening
+2019-06-26 17:48:38:Thread-2:Client: ('192.168.0.33', 45606) INDEX GRANTING
+2019-06-26 17:48:38:Thread-2:Client: ('192.168.0.33', 45606) INDEX GRANTED
+2019-06-26 17:48:38:Thread-2:Client: ('192.168.0.33', 45606) WAIT FOR THE PLAYER
+2019-06-26 17:48:38:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 17:48:38:Thread-2:Waiting for the player
+2019-06-26 17:48:39:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 17:48:39:Thread-2:Waiting for the player
+2019-06-26 17:48:39:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:48:40:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 17:48:40:Thread-2:Waiting for the player
+2019-06-26 17:48:40:MainThread:Connection from client: ('192.168.0.33', 45608)
+2019-06-26 17:48:40:Thread-3:Client: ('192.168.0.33', 45608) INITIALIZE
+2019-06-26 17:48:40:MainThread:Listening
+2019-06-26 17:48:40:Thread-3:Client: ('192.168.0.33', 45608) INDEX GRANTING
+2019-06-26 17:48:40:Thread-3:Client: ('192.168.0.33', 45608) INDEX GRANTED
+2019-06-26 17:48:40:Thread-3:Client: ('192.168.0.33', 45608) WAIT FOR THE PLAYER
+2019-06-26 17:48:40:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 17:48:41:Thread-2:Client: ('192.168.0.33', 45606), IS SECOND: , True
+2019-06-26 17:48:41:Thread-3:Client: ('192.168.0.33', 45608), IS SECOND: , False
+2019-06-26 17:48:41:Thread-3:Client: ('192.168.0.33', 45608) CONNECTION ESTABLISHED
+2019-06-26 17:48:51:Thread-3:Data to client B: ((6, 2), (2, 4), 'white')
+2019-06-26 17:48:54:Thread-3:Data to client A: ((1, 3), (3, 3), 'black')
+2019-06-26 17:48:55:Thread-3:Data to client B: ((7, 3), (0, 4), 'white')
+2019-06-26 17:48:57:Thread-3:Data to client A: ((0, 4), (3, 1), 'black')
+2019-06-26 17:48:59:Thread-3:Data to client B: WIN
+2019-06-26 17:52:11:MainThread:Started listening to client
+2019-06-26 17:52:11:MainThread:Listening
+2019-06-26 17:52:11:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:52:15:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:52:15:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:52:16:MainThread:Connection from client: ('192.168.0.33', 45672)
+2019-06-26 17:52:16:Thread-2:Client: ('192.168.0.33', 45672) INITIALIZE
+2019-06-26 17:52:16:MainThread:Listening
+2019-06-26 17:52:16:Thread-2:Client: ('192.168.0.33', 45672) INDEX GRANTING
+2019-06-26 17:52:16:Thread-2:Client: ('192.168.0.33', 45672) INDEX GRANTED
+2019-06-26 17:52:16:Thread-2:Client: ('192.168.0.33', 45672) WAIT FOR THE PLAYER
+2019-06-26 17:52:16:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 17:52:16:Thread-2:Waiting for the player
+2019-06-26 17:52:16:MainThread:Connection from client: ('192.168.0.33', 45674)
+2019-06-26 17:52:16:Thread-3:Client: ('192.168.0.33', 45674) INITIALIZE
+2019-06-26 17:52:16:MainThread:Listening
+2019-06-26 17:52:16:Thread-3:Client: ('192.168.0.33', 45674) INDEX GRANTING
+2019-06-26 17:52:16:Thread-3:Client: ('192.168.0.33', 45674) INDEX GRANTED
+2019-06-26 17:52:16:Thread-3:Client: ('192.168.0.33', 45674) WAIT FOR THE PLAYER
+2019-06-26 17:52:16:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 17:52:17:Thread-2:Client: ('192.168.0.33', 45672), IS SECOND: , True
+2019-06-26 17:52:17:Thread-3:Client: ('192.168.0.33', 45674), IS SECOND: , False
+2019-06-26 17:52:17:Thread-3:Client: ('192.168.0.33', 45674) CONNECTION ESTABLISHED
+2019-06-26 17:52:23:Thread-3:Data to client B: ((6, 4), (4, 4), 'white')
+2019-06-26 17:52:23:Thread-3:Data to client A: EXIT
+2019-06-26 17:54:54:MainThread:Started listening to client
+2019-06-26 17:54:54:MainThread:Listening
+2019-06-26 17:54:54:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:54:57:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:54:58:MainThread:Connection from client: ('192.168.0.33', 45684)
+2019-06-26 17:54:58:Thread-2:Client: ('192.168.0.33', 45684) INITIALIZE
+2019-06-26 17:54:58:MainThread:Listening
+2019-06-26 17:54:58:Thread-2:Client: ('192.168.0.33', 45684) INDEX GRANTING
+2019-06-26 17:54:58:Thread-2:Client: ('192.168.0.33', 45684) INDEX GRANTED
+2019-06-26 17:54:58:Thread-2:Client: ('192.168.0.33', 45684) WAIT FOR THE PLAYER
+2019-06-26 17:54:58:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 17:54:58:Thread-2:Waiting for the player
+2019-06-26 17:54:59:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 17:54:59:Thread-2:Waiting for the player
+2019-06-26 17:55:00:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 17:55:00:Thread-2:Waiting for the player
+2019-06-26 17:55:01:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:55:01:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 17:55:01:Thread-2:Waiting for the player
+2019-06-26 17:55:02:MainThread:Connection from client: ('192.168.0.33', 45686)
+2019-06-26 17:55:02:Thread-3:Client: ('192.168.0.33', 45686) INITIALIZE
+2019-06-26 17:55:02:MainThread:Listening
+2019-06-26 17:55:02:Thread-3:Client: ('192.168.0.33', 45686) INDEX GRANTING
+2019-06-26 17:55:02:Thread-3:Client: ('192.168.0.33', 45686) INDEX GRANTED
+2019-06-26 17:55:02:Thread-3:Client: ('192.168.0.33', 45686) WAIT FOR THE PLAYER
+2019-06-26 17:55:02:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 17:55:02:Thread-2:Client: ('192.168.0.33', 45684), IS SECOND: , True
+2019-06-26 17:55:03:Thread-3:Client: ('192.168.0.33', 45686), IS SECOND: , False
+2019-06-26 17:55:03:Thread-3:Client: ('192.168.0.33', 45686) CONNECTION ESTABLISHED
+2019-06-26 17:55:08:Thread-3:Data to client B: ((6, 4), (4, 4), 'white')
+2019-06-26 17:55:12:Thread-3:Data to client A: ((1, 4), (4, 3), 'black')
+2019-06-26 17:55:16:Thread-3:Data to client B: EXIT
+2019-06-26 17:55:34:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:55:35:MainThread:Connection from client: ('192.168.0.33', 45688)
+2019-06-26 17:55:35:Thread-4:Client: ('192.168.0.33', 45688) INITIALIZE
+2019-06-26 17:55:35:MainThread:Listening
+2019-06-26 17:55:35:Thread-4:Client: ('192.168.0.33', 45688) INDEX GRANTING
+2019-06-26 17:55:35:Thread-4:Client: ('192.168.0.33', 45688) INDEX GRANTED
+2019-06-26 17:55:35:Thread-4:Client: ('192.168.0.33', 45688) WAIT FOR THE PLAYER
+2019-06-26 17:55:35:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 17:55:35:Thread-4:Waiting for the player
+2019-06-26 17:55:36:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 17:55:36:Thread-4:Waiting for the player
+2019-06-26 17:55:37:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:55:37:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 17:55:37:Thread-4:Waiting for the player
+2019-06-26 17:55:38:MainThread:Connection from client: ('192.168.0.33', 45690)
+2019-06-26 17:55:38:Thread-5:Client: ('192.168.0.33', 45690) INITIALIZE
+2019-06-26 17:55:38:MainThread:Listening
+2019-06-26 17:55:38:Thread-5:Client: ('192.168.0.33', 45690) INDEX GRANTING
+2019-06-26 17:55:38:Thread-5:Client: ('192.168.0.33', 45690) INDEX GRANTED
+2019-06-26 17:55:38:Thread-5:Client: ('192.168.0.33', 45690) WAIT FOR THE PLAYER
+2019-06-26 17:55:38:Thread-5:LENGTH OF PLAYER LIST: 2
+2019-06-26 17:55:38:Thread-4:Client: ('192.168.0.33', 45688), IS SECOND: , True
+2019-06-26 17:55:39:Thread-5:Client: ('192.168.0.33', 45690), IS SECOND: , False
+2019-06-26 17:55:39:Thread-5:Client: ('192.168.0.33', 45690) CONNECTION ESTABLISHED
+2019-06-26 17:55:47:Thread-5:Data to client B: ((6, 3), (3, 4), 'white')
+2019-06-26 17:55:48:Thread-5:Data to client A: ((1, 4), (4, 3), 'black')
+2019-06-26 17:55:52:Thread-5:Data to client B: ((6, 2), (2, 4), 'white')
+2019-06-26 17:55:56:Thread-5:Data to client A: ((1, 3), (3, 3), 'black')
+2019-06-26 17:56:00:Thread-5:Data to client B: EXIT
+2019-06-26 17:56:15:MainThread:Started listening to client
+2019-06-26 17:56:15:MainThread:Listening
+2019-06-26 17:56:15:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:56:18:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:56:19:MainThread:Connection from client: ('192.168.0.33', 45694)
+2019-06-26 17:56:19:Thread-2:Client: ('192.168.0.33', 45694) INITIALIZE
+2019-06-26 17:56:19:MainThread:Listening
+2019-06-26 17:56:19:Thread-2:Client: ('192.168.0.33', 45694) INDEX GRANTING
+2019-06-26 17:56:19:Thread-2:Client: ('192.168.0.33', 45694) INDEX GRANTED
+2019-06-26 17:56:19:Thread-2:Client: ('192.168.0.33', 45694) WAIT FOR THE PLAYER
+2019-06-26 17:56:19:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 17:56:19:Thread-2:Waiting for the player
+2019-06-26 17:56:20:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 17:56:20:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 17:56:20:Thread-2:Waiting for the player
+2019-06-26 17:56:21:MainThread:Connection from client: ('192.168.0.33', 45696)
+2019-06-26 17:56:21:Thread-3:Client: ('192.168.0.33', 45696) INITIALIZE
+2019-06-26 17:56:21:MainThread:Listening
+2019-06-26 17:56:21:Thread-3:Client: ('192.168.0.33', 45696) INDEX GRANTING
+2019-06-26 17:56:21:Thread-3:Client: ('192.168.0.33', 45696) INDEX GRANTED
+2019-06-26 17:56:21:Thread-3:Client: ('192.168.0.33', 45696) WAIT FOR THE PLAYER
+2019-06-26 17:56:21:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 17:56:21:Thread-2:Client: ('192.168.0.33', 45694), IS SECOND: , True
+2019-06-26 17:56:22:Thread-3:Client: ('192.168.0.33', 45696), IS SECOND: , False
+2019-06-26 17:56:22:Thread-3:Client: ('192.168.0.33', 45696) CONNECTION ESTABLISHED
+2019-06-26 17:56:28:Thread-3:Data to client B: ((6, 3), (3, 4), 'white')
+2019-06-26 17:56:31:Thread-3:Data to client A: ((1, 5), (5, 3), 'black')
+2019-06-26 17:56:36:Thread-3:Data to client B: EXIT
+2019-06-26 18:05:09:MainThread:Started listening to client
+2019-06-26 18:05:09:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 18:05:09:MainThread:Listening
+2019-06-26 18:05:11:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 18:05:12:MainThread:Connection from client: ('192.168.0.33', 45732)
+2019-06-26 18:05:12:Thread-2:Client: ('192.168.0.33', 45732) INITIALIZE
+2019-06-26 18:05:12:MainThread:Listening
+2019-06-26 18:05:12:Thread-2:Client: ('192.168.0.33', 45732) INDEX GRANTING
+2019-06-26 18:05:12:Thread-2:Client: ('192.168.0.33', 45732) INDEX GRANTED
+2019-06-26 18:05:12:Thread-2:Client: ('192.168.0.33', 45732) WAIT FOR THE PLAYER
+2019-06-26 18:05:12:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 18:05:12:Thread-2:Waiting for the player
+2019-06-26 18:05:13:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 18:05:13:Thread-2:Waiting for the player
+2019-06-26 18:05:13:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 18:05:14:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 18:05:14:Thread-2:Waiting for the player
+2019-06-26 18:05:14:MainThread:Connection from client: ('192.168.0.33', 45734)
+2019-06-26 18:05:14:Thread-3:Client: ('192.168.0.33', 45734) INITIALIZE
+2019-06-26 18:05:14:MainThread:Listening
+2019-06-26 18:05:14:Thread-3:Client: ('192.168.0.33', 45734) INDEX GRANTING
+2019-06-26 18:05:14:Thread-3:Client: ('192.168.0.33', 45734) INDEX GRANTED
+2019-06-26 18:05:14:Thread-3:Client: ('192.168.0.33', 45734) WAIT FOR THE PLAYER
+2019-06-26 18:05:14:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:05:15:Thread-2:Client: ('192.168.0.33', 45732), IS SECOND: , True
+2019-06-26 18:05:15:Thread-3:Client: ('192.168.0.33', 45734), IS SECOND: , False
+2019-06-26 18:05:15:Thread-3:Client: ('192.168.0.33', 45734) CONNECTION ESTABLISHED
+2019-06-26 18:05:22:Thread-3:Data to client A: EXIT
+2019-06-26 18:06:15:MainThread:Started listening to client
+2019-06-26 18:06:15:MainThread:Listening
+2019-06-26 18:06:15:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 18:06:17:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 18:06:18:MainThread:Connection from client: ('192.168.0.33', 45740)
+2019-06-26 18:06:18:Thread-2:Client: ('192.168.0.33', 45740) INITIALIZE
+2019-06-26 18:06:18:MainThread:Listening
+2019-06-26 18:06:18:Thread-2:Client: ('192.168.0.33', 45740) INDEX GRANTING
+2019-06-26 18:06:18:Thread-2:Client: ('192.168.0.33', 45740) INDEX GRANTED
+2019-06-26 18:06:18:Thread-2:Client: ('192.168.0.33', 45740) WAIT FOR THE PLAYER
+2019-06-26 18:06:18:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 18:06:18:Thread-2:Waiting for the player
+2019-06-26 18:06:19:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 18:06:19:Thread-2:Waiting for the player
+2019-06-26 18:06:19:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 18:06:20:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 18:06:20:Thread-2:Waiting for the player
+2019-06-26 18:06:20:MainThread:Connection from client: ('192.168.0.33', 45742)
+2019-06-26 18:06:20:Thread-3:Client: ('192.168.0.33', 45742) INITIALIZE
+2019-06-26 18:06:20:MainThread:Listening
+2019-06-26 18:06:20:Thread-3:Client: ('192.168.0.33', 45742) INDEX GRANTING
+2019-06-26 18:06:20:Thread-3:Client: ('192.168.0.33', 45742) INDEX GRANTED
+2019-06-26 18:06:20:Thread-3:Client: ('192.168.0.33', 45742) WAIT FOR THE PLAYER
+2019-06-26 18:06:20:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:06:21:Thread-2:Client: ('192.168.0.33', 45740), IS SECOND: , True
+2019-06-26 18:06:21:Thread-3:Client: ('192.168.0.33', 45742), IS SECOND: , False
+2019-06-26 18:06:21:Thread-3:Client: ('192.168.0.33', 45742) CONNECTION ESTABLISHED
+2019-06-26 18:06:25:Thread-3:Data to client A: EXIT
+2019-06-26 18:06:30:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 18:06:30:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 18:06:31:MainThread:Connection from client: ('192.168.0.33', 45744)
+2019-06-26 18:06:31:Thread-4:Client: ('192.168.0.33', 45744) INITIALIZE
+2019-06-26 18:06:31:MainThread:Listening
+2019-06-26 18:06:31:Thread-4:Client: ('192.168.0.33', 45744) INDEX GRANTING
+2019-06-26 18:06:31:Thread-4:Client: ('192.168.0.33', 45744) INDEX GRANTED
+2019-06-26 18:06:31:Thread-4:Client: ('192.168.0.33', 45744) WAIT FOR THE PLAYER
+2019-06-26 18:06:31:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 18:06:31:Thread-4:Waiting for the player
+2019-06-26 18:06:31:MainThread:Connection from client: ('192.168.0.33', 45746)
+2019-06-26 18:06:31:Thread-5:Client: ('192.168.0.33', 45746) INITIALIZE
+2019-06-26 18:06:31:MainThread:Listening
+2019-06-26 18:06:31:Thread-5:Client: ('192.168.0.33', 45746) INDEX GRANTING
+2019-06-26 18:06:31:Thread-5:Client: ('192.168.0.33', 45746) INDEX GRANTED
+2019-06-26 18:06:31:Thread-5:Client: ('192.168.0.33', 45746) WAIT FOR THE PLAYER
+2019-06-26 18:06:31:Thread-5:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:06:32:Thread-4:Client: ('192.168.0.33', 45744), IS SECOND: , True
+2019-06-26 18:06:32:Thread-5:Client: ('192.168.0.33', 45746), IS SECOND: , False
+2019-06-26 18:06:32:Thread-5:Client: ('192.168.0.33', 45746) CONNECTION ESTABLISHED
+2019-06-26 18:06:38:Thread-5:Data to client B: ((6, 2), (2, 4), 'white')
+2019-06-26 18:06:41:Thread-5:Data to client A: ((1, 4), (4, 3), 'black')
+2019-06-26 18:06:47:Thread-5:Data to client B: ((7, 3), (0, 4), 'white')
+2019-06-26 18:06:50:Thread-5:Data to client A: ((1, 3), (3, 3), 'black')
+2019-06-26 18:06:53:Thread-5:Data to client B: WIN
+2019-06-26 18:29:06:MainThread:Started listening to client
+2019-06-26 18:29:06:MainThread:Listening
+2019-06-26 18:29:06:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 18:29:08:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 18:29:08:MainThread:Connection from client: ('192.168.0.33', 45896)
+2019-06-26 18:29:08:Thread-2:Client: ('192.168.0.33', 45896) INITIALIZE
+2019-06-26 18:29:08:MainThread:Listening
+2019-06-26 18:29:08:Thread-2:Client: ('192.168.0.33', 45896) INDEX GRANTING
+2019-06-26 18:29:08:Thread-2:Client: ('192.168.0.33', 45896) INDEX GRANTED
+2019-06-26 18:29:08:Thread-2:Client: ('192.168.0.33', 45896) WAIT FOR THE PLAYER
+2019-06-26 18:29:08:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 18:29:08:Thread-2:Waiting for the player
+2019-06-26 18:29:09:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 18:29:09:Thread-2:Waiting for the player
+2019-06-26 18:29:10:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 18:29:10:Thread-2:Waiting for the player
+2019-06-26 18:29:10:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 18:29:10:MainThread:Connection from client: ('192.168.0.33', 45898)
+2019-06-26 18:29:10:Thread-3:Client: ('192.168.0.33', 45898) INITIALIZE
+2019-06-26 18:29:10:MainThread:Listening
+2019-06-26 18:29:10:Thread-3:Client: ('192.168.0.33', 45898) INDEX GRANTING
+2019-06-26 18:29:10:Thread-3:Client: ('192.168.0.33', 45898) INDEX GRANTED
+2019-06-26 18:29:10:Thread-3:Client: ('192.168.0.33', 45898) WAIT FOR THE PLAYER
+2019-06-26 18:29:10:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:10:Thread-3:Waiting for the player
+2019-06-26 18:29:10:Thread-3:Waiting for the player
+2019-06-26 18:29:11:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:11:Thread-2:Waiting for the player
+2019-06-26 18:29:11:Thread-2:Waiting for the player
+2019-06-26 18:29:11:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:11:Thread-3:Waiting for the player
+2019-06-26 18:29:11:Thread-3:Waiting for the player
+2019-06-26 18:29:12:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:12:Thread-2:Waiting for the player
+2019-06-26 18:29:12:Thread-2:Waiting for the player
+2019-06-26 18:29:12:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:12:Thread-3:Waiting for the player
+2019-06-26 18:29:12:Thread-3:Waiting for the player
+2019-06-26 18:29:13:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:13:Thread-2:Waiting for the player
+2019-06-26 18:29:13:Thread-2:Waiting for the player
+2019-06-26 18:29:13:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:13:Thread-3:Waiting for the player
+2019-06-26 18:29:13:Thread-3:Waiting for the player
+2019-06-26 18:29:14:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:14:Thread-2:Waiting for the player
+2019-06-26 18:29:14:Thread-2:Waiting for the player
+2019-06-26 18:29:14:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:14:Thread-3:Waiting for the player
+2019-06-26 18:29:14:Thread-3:Waiting for the player
+2019-06-26 18:29:15:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:15:Thread-2:Waiting for the player
+2019-06-26 18:29:15:Thread-2:Waiting for the player
+2019-06-26 18:29:15:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:15:Thread-3:Waiting for the player
+2019-06-26 18:29:15:Thread-3:Waiting for the player
+2019-06-26 18:29:16:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:16:Thread-2:Waiting for the player
+2019-06-26 18:29:16:Thread-2:Waiting for the player
+2019-06-26 18:29:16:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:16:Thread-3:Waiting for the player
+2019-06-26 18:29:16:Thread-3:Waiting for the player
+2019-06-26 18:29:17:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:17:Thread-2:Waiting for the player
+2019-06-26 18:29:17:Thread-2:Waiting for the player
+2019-06-26 18:29:17:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:17:Thread-3:Waiting for the player
+2019-06-26 18:29:17:Thread-3:Waiting for the player
+2019-06-26 18:29:18:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:18:Thread-2:Waiting for the player
+2019-06-26 18:29:18:Thread-2:Waiting for the player
+2019-06-26 18:29:18:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:18:Thread-3:Waiting for the player
+2019-06-26 18:29:18:Thread-3:Waiting for the player
+2019-06-26 18:29:19:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:19:Thread-2:Waiting for the player
+2019-06-26 18:29:19:Thread-2:Waiting for the player
+2019-06-26 18:29:19:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:19:Thread-3:Waiting for the player
+2019-06-26 18:29:19:Thread-3:Waiting for the player
+2019-06-26 18:29:20:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:20:Thread-2:Waiting for the player
+2019-06-26 18:29:20:Thread-2:Waiting for the player
+2019-06-26 18:29:20:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:20:Thread-3:Waiting for the player
+2019-06-26 18:29:20:Thread-3:Waiting for the player
+2019-06-26 18:29:21:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:21:Thread-2:Waiting for the player
+2019-06-26 18:29:21:Thread-2:Waiting for the player
+2019-06-26 18:29:21:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:21:Thread-3:Waiting for the player
+2019-06-26 18:29:21:Thread-3:Waiting for the player
+2019-06-26 18:29:22:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:22:Thread-2:Waiting for the player
+2019-06-26 18:29:22:Thread-2:Waiting for the player
+2019-06-26 18:29:22:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:22:Thread-3:Waiting for the player
+2019-06-26 18:29:22:Thread-3:Waiting for the player
+2019-06-26 18:29:23:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:23:Thread-2:Waiting for the player
+2019-06-26 18:29:23:Thread-2:Waiting for the player
+2019-06-26 18:29:23:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:23:Thread-3:Waiting for the player
+2019-06-26 18:29:23:Thread-3:Waiting for the player
+2019-06-26 18:29:24:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:24:Thread-2:Waiting for the player
+2019-06-26 18:29:24:Thread-2:Waiting for the player
+2019-06-26 18:29:24:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:24:Thread-3:Waiting for the player
+2019-06-26 18:29:24:Thread-3:Waiting for the player
+2019-06-26 18:29:25:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:25:Thread-2:Waiting for the player
+2019-06-26 18:29:25:Thread-2:Waiting for the player
+2019-06-26 18:29:25:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:25:Thread-3:Waiting for the player
+2019-06-26 18:29:25:Thread-3:Waiting for the player
+2019-06-26 18:29:26:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:26:Thread-2:Waiting for the player
+2019-06-26 18:29:26:Thread-2:Waiting for the player
+2019-06-26 18:29:26:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:26:Thread-3:Waiting for the player
+2019-06-26 18:29:26:Thread-3:Waiting for the player
+2019-06-26 18:29:27:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:27:Thread-2:Waiting for the player
+2019-06-26 18:29:27:Thread-2:Waiting for the player
+2019-06-26 18:29:27:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:27:Thread-3:Waiting for the player
+2019-06-26 18:29:27:Thread-3:Waiting for the player
+2019-06-26 18:29:28:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:28:Thread-2:Waiting for the player
+2019-06-26 18:29:28:Thread-2:Waiting for the player
+2019-06-26 18:29:28:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:28:Thread-3:Waiting for the player
+2019-06-26 18:29:28:Thread-3:Waiting for the player
+2019-06-26 18:29:29:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:29:Thread-2:Waiting for the player
+2019-06-26 18:29:29:Thread-2:Waiting for the player
+2019-06-26 18:29:29:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:29:Thread-3:Waiting for the player
+2019-06-26 18:29:29:Thread-3:Waiting for the player
+2019-06-26 18:29:30:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:30:Thread-2:Waiting for the player
+2019-06-26 18:29:30:Thread-2:Waiting for the player
+2019-06-26 18:29:30:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:30:Thread-3:Waiting for the player
+2019-06-26 18:29:30:Thread-3:Waiting for the player
+2019-06-26 18:29:31:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:31:Thread-2:Waiting for the player
+2019-06-26 18:29:31:Thread-2:Waiting for the player
+2019-06-26 18:29:31:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:31:Thread-3:Waiting for the player
+2019-06-26 18:29:31:Thread-3:Waiting for the player
+2019-06-26 18:29:32:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:32:Thread-2:Waiting for the player
+2019-06-26 18:29:32:Thread-2:Waiting for the player
+2019-06-26 18:29:32:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:32:Thread-3:Waiting for the player
+2019-06-26 18:29:32:Thread-3:Waiting for the player
+2019-06-26 18:29:33:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:33:Thread-2:Waiting for the player
+2019-06-26 18:29:33:Thread-2:Waiting for the player
+2019-06-26 18:29:33:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:33:Thread-3:Waiting for the player
+2019-06-26 18:29:33:Thread-3:Waiting for the player
+2019-06-26 18:29:34:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:34:Thread-2:Waiting for the player
+2019-06-26 18:29:34:Thread-2:Waiting for the player
+2019-06-26 18:29:34:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:34:Thread-3:Waiting for the player
+2019-06-26 18:29:34:Thread-3:Waiting for the player
+2019-06-26 18:29:35:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:35:Thread-2:Waiting for the player
+2019-06-26 18:29:35:Thread-2:Waiting for the player
+2019-06-26 18:29:35:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:35:Thread-3:Waiting for the player
+2019-06-26 18:29:35:Thread-3:Waiting for the player
+2019-06-26 18:29:36:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:36:Thread-2:Waiting for the player
+2019-06-26 18:29:36:Thread-2:Waiting for the player
+2019-06-26 18:29:36:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:36:Thread-3:Waiting for the player
+2019-06-26 18:29:36:Thread-3:Waiting for the player
+2019-06-26 18:29:37:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:37:Thread-2:Waiting for the player
+2019-06-26 18:29:37:Thread-2:Waiting for the player
+2019-06-26 18:29:37:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:37:Thread-3:Waiting for the player
+2019-06-26 18:29:37:Thread-3:Waiting for the player
+2019-06-26 18:29:38:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:38:Thread-2:Waiting for the player
+2019-06-26 18:29:38:Thread-2:Waiting for the player
+2019-06-26 18:29:38:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:38:Thread-3:Waiting for the player
+2019-06-26 18:29:38:Thread-3:Waiting for the player
+2019-06-26 18:29:39:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:39:Thread-2:Waiting for the player
+2019-06-26 18:29:39:Thread-2:Waiting for the player
+2019-06-26 18:29:39:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:39:Thread-3:Waiting for the player
+2019-06-26 18:29:39:Thread-3:Waiting for the player
+2019-06-26 18:29:40:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:40:Thread-2:Waiting for the player
+2019-06-26 18:29:40:Thread-2:Waiting for the player
+2019-06-26 18:29:40:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:40:Thread-3:Waiting for the player
+2019-06-26 18:29:40:Thread-3:Waiting for the player
+2019-06-26 18:29:41:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:41:Thread-2:Waiting for the player
+2019-06-26 18:29:41:Thread-2:Waiting for the player
+2019-06-26 18:29:41:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:41:Thread-3:Waiting for the player
+2019-06-26 18:29:41:Thread-3:Waiting for the player
+2019-06-26 18:29:42:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:42:Thread-2:Waiting for the player
+2019-06-26 18:29:42:Thread-2:Waiting for the player
+2019-06-26 18:29:42:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:42:Thread-3:Waiting for the player
+2019-06-26 18:29:42:Thread-3:Waiting for the player
+2019-06-26 18:29:43:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:43:Thread-2:Waiting for the player
+2019-06-26 18:29:43:Thread-2:Waiting for the player
+2019-06-26 18:29:43:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:43:Thread-3:Waiting for the player
+2019-06-26 18:29:43:Thread-3:Waiting for the player
+2019-06-26 18:29:44:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:44:Thread-2:Waiting for the player
+2019-06-26 18:29:44:Thread-2:Waiting for the player
+2019-06-26 18:29:44:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:44:Thread-3:Waiting for the player
+2019-06-26 18:29:44:Thread-3:Waiting for the player
+2019-06-26 18:29:45:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:45:Thread-2:Waiting for the player
+2019-06-26 18:29:45:Thread-2:Waiting for the player
+2019-06-26 18:29:45:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:45:Thread-3:Waiting for the player
+2019-06-26 18:29:45:Thread-3:Waiting for the player
+2019-06-26 18:29:46:Thread-2:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:46:Thread-2:Waiting for the player
+2019-06-26 18:29:46:Thread-2:Waiting for the player
+2019-06-26 18:29:46:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:46:Thread-3:Waiting for the player
+2019-06-26 18:29:46:Thread-3:Waiting for the player
+2019-06-26 18:29:48:MainThread:Started listening to client
+2019-06-26 18:29:48:MainThread:Listening
+2019-06-26 18:29:48:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 18:29:51:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 18:29:51:MainThread:Connection from client: ('192.168.0.33', 45904)
+2019-06-26 18:29:51:Thread-2:Client: ('192.168.0.33', 45904) INITIALIZE
+2019-06-26 18:29:51:MainThread:Listening
+2019-06-26 18:29:51:Thread-2:Client: ('192.168.0.33', 45904) INDEX GRANTING
+2019-06-26 18:29:51:Thread-2:Client: ('192.168.0.33', 45904) INDEX GRANTED
+2019-06-26 18:29:51:Thread-2:Client: ('192.168.0.33', 45904) WAIT FOR THE PLAYER
+2019-06-26 18:29:51:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 18:29:51:Thread-2:Waiting for the player
+2019-06-26 18:29:52:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 18:29:52:Thread-2:Waiting for the player
+2019-06-26 18:29:53:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 18:29:53:Thread-2:Waiting for the player
+2019-06-26 18:29:53:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 18:29:53:MainThread:Connection from client: ('192.168.0.33', 45906)
+2019-06-26 18:29:53:Thread-3:Client: ('192.168.0.33', 45906) INITIALIZE
+2019-06-26 18:29:53:MainThread:Listening
+2019-06-26 18:29:53:Thread-3:Client: ('192.168.0.33', 45906) INDEX GRANTING
+2019-06-26 18:29:53:Thread-3:Client: ('192.168.0.33', 45906) INDEX GRANTED
+2019-06-26 18:29:53:Thread-3:Client: ('192.168.0.33', 45906) WAIT FOR THE PLAYER
+2019-06-26 18:29:53:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:29:54:Thread-2:Client: ('192.168.0.33', 45904), IS SECOND: , True
+2019-06-26 18:29:54:Thread-3:Client: ('192.168.0.33', 45906), IS SECOND: , False
+2019-06-26 18:29:54:Thread-3:Client: ('192.168.0.33', 45906) CONNECTION ESTABLISHED
+2019-06-26 18:30:03:Thread-3:Data to client B: ((6, 5), (5, 4), 'white')
+2019-06-26 18:30:12:Thread-3:Data to client A: EXIT
+2019-06-26 18:31:10:MainThread:Started listening to client
+2019-06-26 18:31:10:MainThread:Listening
+2019-06-26 18:31:10:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 18:31:12:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 18:31:12:MainThread:Connection from client: ('192.168.0.33', 45912)
+2019-06-26 18:31:12:Thread-2:Client: ('192.168.0.33', 45912) INITIALIZE
+2019-06-26 18:31:12:MainThread:Listening
+2019-06-26 18:31:12:Thread-2:Client: ('192.168.0.33', 45912) INDEX GRANTING
+2019-06-26 18:31:12:Thread-2:Client: ('192.168.0.33', 45912) INDEX GRANTED
+2019-06-26 18:31:12:Thread-2:Client: ('192.168.0.33', 45912) WAIT FOR THE PLAYER
+2019-06-26 18:31:12:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 18:31:12:Thread-2:Waiting for the player
+2019-06-26 18:31:13:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 18:31:13:Thread-2:Waiting for the player
+2019-06-26 18:31:14:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 18:31:14:Thread-2:Waiting for the player
+2019-06-26 18:31:15:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 18:31:15:Thread-2:Waiting for the player
+2019-06-26 18:31:16:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 18:31:16:Thread-2:Waiting for the player
+2019-06-26 18:31:17:Thread-2:LENGTH OF PLAYER LIST: 1
+2019-06-26 18:31:17:Thread-2:Waiting for the player
+2019-06-26 18:31:18:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 18:31:18:MainThread:Connection from client: ('192.168.0.33', 45914)
+2019-06-26 18:31:18:Thread-3:Client: ('192.168.0.33', 45914) INITIALIZE
+2019-06-26 18:31:18:MainThread:Listening
+2019-06-26 18:31:18:Thread-3:Client: ('192.168.0.33', 45914) INDEX GRANTING
+2019-06-26 18:31:18:Thread-3:Client: ('192.168.0.33', 45914) INDEX GRANTED
+2019-06-26 18:31:18:Thread-3:Client: ('192.168.0.33', 45914) WAIT FOR THE PLAYER
+2019-06-26 18:31:18:Thread-3:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:31:18:Thread-2:Client: ('192.168.0.33', 45912), IS SECOND: , True
+2019-06-26 18:31:19:Thread-3:Client: ('192.168.0.33', 45914), IS SECOND: , False
+2019-06-26 18:31:19:Thread-3:Client: ('192.168.0.33', 45914) CONNECTION ESTABLISHED
+2019-06-26 18:31:51:Thread-3:Data to client B: EXIT
+2019-06-26 18:32:10:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 18:32:10:MainThread:Connection from client: ('192.168.0.33', 45918)
+2019-06-26 18:32:10:Thread-4:Client: ('192.168.0.33', 45918) INITIALIZE
+2019-06-26 18:32:10:MainThread:Listening
+2019-06-26 18:32:10:Thread-4:Client: ('192.168.0.33', 45918) INDEX GRANTING
+2019-06-26 18:32:10:Thread-4:Client: ('192.168.0.33', 45918) INDEX GRANTED
+2019-06-26 18:32:10:Thread-4:Client: ('192.168.0.33', 45918) WAIT FOR THE PLAYER
+2019-06-26 18:32:10:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 18:32:10:Thread-4:Waiting for the player
+2019-06-26 18:32:11:Thread-4:LENGTH OF PLAYER LIST: 1
+2019-06-26 18:32:11:Thread-4:Waiting for the player
+2019-06-26 18:32:12:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 18:32:12:MainThread:Connection from client: ('192.168.0.33', 45920)
+2019-06-26 18:32:12:Thread-5:Client: ('192.168.0.33', 45920) INITIALIZE
+2019-06-26 18:32:12:MainThread:Listening
+2019-06-26 18:32:12:Thread-5:Client: ('192.168.0.33', 45920) INDEX GRANTING
+2019-06-26 18:32:12:Thread-5:Client: ('192.168.0.33', 45920) INDEX GRANTED
+2019-06-26 18:32:12:Thread-5:Client: ('192.168.0.33', 45920) WAIT FOR THE PLAYER
+2019-06-26 18:32:12:Thread-5:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:32:12:Thread-4:Client: ('192.168.0.33', 45918), IS SECOND: , True
+2019-06-26 18:32:13:Thread-5:Client: ('192.168.0.33', 45920), IS SECOND: , False
+2019-06-26 18:32:13:Thread-5:Client: ('192.168.0.33', 45920) CONNECTION ESTABLISHED
+2019-06-26 18:32:19:Thread-5:Data to client B: ((6, 4), (4, 4), 'white')
+2019-06-26 18:32:25:Thread-5:Data to client B: EXIT
+2019-06-26 18:33:34:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 18:33:34:MainThread:Connection from client: ('192.168.0.33', 45924)
+2019-06-26 18:33:34:Thread-6:Client: ('192.168.0.33', 45924) INITIALIZE
+2019-06-26 18:33:34:MainThread:Listening
+2019-06-26 18:33:34:Thread-6:Client: ('192.168.0.33', 45924) INDEX GRANTING
+2019-06-26 18:33:34:Thread-6:Client: ('192.168.0.33', 45924) INDEX GRANTED
+2019-06-26 18:33:34:Thread-6:Client: ('192.168.0.33', 45924) WAIT FOR THE PLAYER
+2019-06-26 18:33:34:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 18:33:34:Thread-6:Waiting for the player
+2019-06-26 18:33:35:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 18:33:35:Thread-6:Waiting for the player
+2019-06-26 18:33:36:Thread-6:LENGTH OF PLAYER LIST: 1
+2019-06-26 18:33:36:Thread-6:Waiting for the player
+2019-06-26 18:33:37:Thread-1:Socket UDP for port 10000 created and binded.
+2019-06-26 18:33:37:MainThread:Connection from client: ('192.168.0.33', 45926)
+2019-06-26 18:33:37:Thread-7:Client: ('192.168.0.33', 45926) INITIALIZE
+2019-06-26 18:33:37:MainThread:Listening
+2019-06-26 18:33:37:Thread-7:Client: ('192.168.0.33', 45926) INDEX GRANTING
+2019-06-26 18:33:37:Thread-7:Client: ('192.168.0.33', 45926) INDEX GRANTED
+2019-06-26 18:33:37:Thread-7:Client: ('192.168.0.33', 45926) WAIT FOR THE PLAYER
+2019-06-26 18:33:37:Thread-7:LENGTH OF PLAYER LIST: 2
+2019-06-26 18:33:37:Thread-6:Client: ('192.168.0.33', 45924), IS SECOND: , True
+2019-06-26 18:33:38:Thread-7:Client: ('192.168.0.33', 45926), IS SECOND: , False
+2019-06-26 18:33:38:Thread-7:Client: ('192.168.0.33', 45926) CONNECTION ESTABLISHED
+2019-06-26 18:34:06:Thread-7:Data to client A: EXIT
