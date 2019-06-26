@@ -180,7 +180,11 @@ if message == "white" or message == "black":
                     data = "WIN"
                     data = pickle.dumps(data)
                     tcpClient.send(data)
+                    tcpClient.close()
                     end_screen(win,"Black Win")
+                    time.sleep(3)
+                    quit()
+                    pygame.quit()
 
             else:
 
@@ -192,7 +196,11 @@ if message == "white" or message == "black":
                     data = "WIN"
                     data = pickle.dumps(data)
                     tcpClient.send(data)
+                    tcpClient.close()
                     end_screen(win,"White Win")
+                    time.sleep(3)
+                    quit()
+                    pygame.quit()
 
 
             redraw_gameWindow(win , bo ,p1Time,p2Time , turn)
@@ -223,28 +231,37 @@ if message == "white" or message == "black":
                         if change:
                             if ifwin:
                                 if turn == "w":
+                                    data = "WIN"
+                                    data = pickle.dumps(data)
+                                    tcpClient.send(data)
                                     end_screen(win, "White Win")
                                     time.sleep(3)
+                                    tcpClient.close()
                                     quit()
                                     pygame.quit()
                                 else:
+                                    data = "WIN"
+                                    data = pickle.dumps(data)
+                                    tcpClient.send(data)
                                     end_screen(win, "Black Win")
                                     time.sleep(3)
+                                    tcpClient.close()
                                     quit()
                                     pygame.quit()
-                            print("Change and previous", change, prev_mv)
-                            #timeGone = int(time.time() - startTime)
-                            curr = (i,j)
-                            data_send = (prev_mv, curr, color)
-                            data_send = pickle.dumps(data_send)
-                            tcpClient.send(data_send)
-                            startTime = time.time() # if made move reset time
-                            if turn == "w":
-                                turn = "b"
                             else:
-                                turn = "w"
-                            myTurn = False
-                            print("MyTurn color: ", myTurn, turn)
+                                print("Change and previous", change, prev_mv)
+                                #timeGone = int(time.time() - startTime)
+                                curr = (i,j)
+                                data_send = (prev_mv, curr, color)
+                                data_send = pickle.dumps(data_send)
+                                tcpClient.send(data_send)
+                                startTime = time.time() # if made move reset time
+                                if turn == "w":
+                                    turn = "b"
+                                else:
+                                    turn = "w"
+                                myTurn = False
+                                print("MyTurn color: ", myTurn, turn)
 
             else:
                 data = tcpClient.recv(BUFFER_SIZE)
@@ -254,12 +271,14 @@ if message == "white" or message == "black":
 
                 if isinstance(data,str):
                     if data == "WIN":
-                        if color == "white":
+                        if turn == "w":
                             end_screen(win, "White WIN")
                         else:
                             end_screen(win, "Black WIN")
-                        time.sleep(5)
+                        time.sleep(3)
                         tcpClient.close()
+                        quit()
+                        pygame.quit()
                         sys.exit(0)
                     if data == "EXIT":
                         quit()
