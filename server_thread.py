@@ -23,6 +23,7 @@ players = []
      'inGame' : bool,
     }
 """
+
 # Logging definition
 logging.basicConfig(
     filename="./log/server.log",
