@@ -42,6 +42,10 @@ class Piece:
         self.first = True
         self.king = False
         self.pawn = False
+        self.bishop = False
+        self.knight = False
+        self.queen = False
+        self.rook = False
 
     def isSelected(self):
         return self.selected
@@ -86,6 +90,10 @@ class Piece:
 
 class Bishop(Piece):
     img = 0
+
+    def __init__(self, row, col, color):
+        super().__init__(row, col, color)
+        self.bishop = True
     def valid_moves(self , board):
 
         i = self.row
@@ -162,6 +170,9 @@ class Bishop(Piece):
 
 class Rook(Piece):
     img = 5
+    def __init__(self,row,col,color):
+        super().__init__(row,col,color)
+        self.rook = True
     def valid_moves(self,board):
 
         i = self.row
@@ -287,7 +298,9 @@ class King(Piece):
 
 class Queen(Piece):
     img = 4
-
+    def __init__(self,row,col,color):
+        super().__init__(row,col,color)
+        self.queen = True
     def valid_moves(self , board):
 
         i = self.row
@@ -405,6 +418,9 @@ class Queen(Piece):
         return moves
 class Knight(Piece):
     img = 2
+    def __init__(self,row,col,color):
+        super().__init__(row,col,color)
+        self.knight = True
     def valid_moves(self,board):
         i = self.row
         j = self.col
