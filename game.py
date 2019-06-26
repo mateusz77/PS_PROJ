@@ -26,7 +26,7 @@ def find_servers():
     encoded_message = message.encode()
     mcast_grp = (MCAST_GROUP, SERVER_PORT)
     client_mcast = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    client_mcast.settimeout(1)
+    client_mcast.settimeout(TIMEOUT)
     ttl = struct.pack('b',1)
     client_mcast.setsockopt(socket.IPPROTO_IP, socket.IP_MULTICAST_TTL, ttl)
 
@@ -50,6 +50,7 @@ if (len(servers) > 0):
     host = servers[0]
     port = SERVER_PORT
     tcpClientA = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    tcpClientA.settimeout(0.01)
     tcpClientA.connect((host, port))
 
 
@@ -57,9 +58,16 @@ if (len(servers) > 0):
     my_idx = pickle.dumps(my_idx)
     tcpClientA.send(my_idx)
 
+while True:
+    try:
+        message = None
+        message = tcpClientA.recv(BUFFER_SIZE)
+        if message:
+            break
+    except socket.timeout:
+        pass
 
-    message = tcpClientA.recv(BUFFER_SIZE)
-    message = pickle.loads(message)
+message = pickle.loads(message)
 
 if message == "white" or message == "black":
 
@@ -263,48 +271,70 @@ if message == "white" or message == "black":
                                 myTurn = False
                                 print("MyTurn color: ", myTurn, turn)
 
-            else:
-                data = tcpClient.recv(BUFFER_SIZE)
-
-                data = pickle.loads(data)
-                print("Data received", data)
-
-                if isinstance(data,str):
-                    if data == "WIN":
-                        if turn == "w":
-                            end_screen(win, "White WIN")
-                        else:
-                            end_screen(win, "Black WIN")
-                        time.sleep(3)
-                        tcpClient.close()
-                        quit()
-                        pygame.quit()
-                        sys.exit(0)
+                try:
+                    data = tcpClientA.recv(BUFFER_SIZE)
+                    data = pickle.loads(data)
                     if data == "EXIT":
                         quit()
                         tcpClient.close()
                         pygame.quit()
+                        sys.exit(0)
+                except socket.timeout:
+                    pass
 
-                prev, curr, color_recv = data
-                print("DATA RECEIVED: ", data)
-                bo.update_moves()
-                change = bo.move(prev, (curr[1], curr[0]),turn)
-                print("Changed", change)
-                bo.update_moves()
-                bo.reset_selected()
-                if change:
-                    # timeGone = int(time.time() - startTime)
-                    startTime = time.time()  # if made move reset time
-                    if turn == "w":
-                        turn = "b"
-                    else:
-                        turn = "w"
-                    if color_recv == 'white':
-                        turn = "b"
-                    else:
-                        turn = "w"
-                    myTurn = True
-                    print("MyTurn color: ", myTurn, turn)
+            else:
+                try:
+                    data = tcpClient.recv(BUFFER_SIZE)
+
+                    data = pickle.loads(data)
+                    print("Data received", data)
+
+                    if isinstance(data,str):
+                        if data == "WIN":
+                            if turn == "w":
+                                end_screen(win, "White WIN")
+                            else:
+                                end_screen(win, "Black WIN")
+                            time.sleep(3)
+                            tcpClient.close()
+                            quit()
+                            pygame.quit()
+                            sys.exit(0)
+                        if data == "EXIT":
+                            quit()
+                            tcpClient.close()
+                            pygame.quit()
+
+                    prev, curr, color_recv = data
+                    print("DATA RECEIVED: ", data)
+                    bo.update_moves()
+                    change = bo.move(prev, (curr[1], curr[0]),turn)
+                    print("Changed", change)
+                    bo.update_moves()
+                    bo.reset_selected()
+                    if change:
+                        # timeGone = int(time.time() - startTime)
+                        startTime = time.time()  # if made move reset time
+                        if turn == "w":
+                            turn = "b"
+                        else:
+                            turn = "w"
+                        if color_recv == 'white':
+                            turn = "b"
+                        else:
+                            turn = "w"
+                        myTurn = True
+                        print("MyTurn color: ", myTurn, turn)
+                except socket.timeout:
+                    for event in pygame.event.get():
+                        if event.type == pygame.QUIT:
+                            run = False
+                            data = "EXIT"
+                            data = pickle.dumps(data)
+                            tcpClient.send(data)
+                            tcpClient.close()
+                            quit()  # quit app at all
+                            pygame.quit()
 
         menu_screen(win)
 

@@ -173,37 +173,43 @@ def handle_player(client_sock, addr):
             logging.info("Client: {} CONNECTION ESTABLISHED".format(addr))
             while gameIsRunning:
                 try:
-                    data_to_b = client_a.recv(BUFFER_SIZE)
-                    data_to_b = pickle.loads(data_to_b)
+                    try:
+                        data_to_b = client_a.recv(BUFFER_SIZE)
+                        data_to_b = pickle.loads(data_to_b)
 
-                    if data_to_b:
+                        if data_to_b:
 
-                        # print("Data to client B: ", data_to_b)
-                        # logging.info(f"Data to client B: {data_to_b}")
-                        logging.info("Data to client B: {}".format(data_to_b))
-                        data_to_b = pickle.dumps(data_to_b)
-                        client_b.send(data_to_b)
-                    else:
+                            # print("Data to client B: ", data_to_b)
+                            # logging.info(f"Data to client B: {data_to_b}")
+                            logging.info("Data to client B: {}".format(data_to_b))
+                            data_to_b = pickle.dumps(data_to_b)
+                            client_b.send(data_to_b)
+                        else:
 
-                        # print("Client disconnected")
-                        logging.error("Client A disconnected")
-                        raise Exception('Client A disconnected')
+                            # print("Client disconnected")
+                            logging.error("Client A disconnected")
+                            raise Exception('Client A disconnected')
+                    except socket.timeout:
+                        pass
 
-                    data_to_a = client_b.recv(BUFFER_SIZE)
-                    data_to_a = pickle.loads(data_to_a)
+                    try:
+                        data_to_a = client_b.recv(BUFFER_SIZE)
+                        data_to_a = pickle.loads(data_to_a)
 
-                    if data_to_a:
+                        if data_to_a:
 
-                        # print("Data to client A: ", data_to_a)
-                        # logging.info(f"Data to client A: {data_to_a}")
-                        logging.info("Data to client A: {}".format(data_to_a))
+                            # print("Data to client A: ", data_to_a)
+                            # logging.info(f"Data to client A: {data_to_a}")
+                            logging.info("Data to client A: {}".format(data_to_a))
 
-                        data_to_a = pickle.dumps(data_to_a)
-                        client_a.send(data_to_a)
-                    else:
-                        # print("Client disconnected")
-                        logging.error("Client B disconnected")
-                        raise Exception('Client B disconnected')
+                            data_to_a = pickle.dumps(data_to_a)
+                            client_a.send(data_to_a)
+                        else:
+                            # print("Client disconnected")
+                            logging.error("Client B disconnected")
+                            raise Exception('Client B disconnected')
+                    except socket.timeout:
+                        pass
                 except:
                     client_a.close()
                     client_b.close()
@@ -262,7 +268,7 @@ class ThreadedServer(object):
                 # logging.info(f"Connection from client: {address}")
                 logging.info("Connection from client: {}".format(address))
 
-                client.settimeout(310)
+                client.settimeout(TIMEOUT+0.000001)
                 thread_client = threading.Thread(target=self.listenToClient, args=(client, address)).start()
                 thread_list.append(thread_client)
 
