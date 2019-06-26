@@ -252,7 +252,7 @@ class ThreadedServer(object):
     def listen(self):
         # print("Started listening to client")
         logging.info("Started listening to client")
-        self.sock.listen(5)
+        self.sock.listen(MAX_PLAYERS)
         thread_list = []
 
         mcast_thread = threading.Thread(target=mcast_daemon)
@@ -268,7 +268,7 @@ class ThreadedServer(object):
                 # logging.info(f"Connection from client: {address}")
                 logging.info("Connection from client: {}".format(address))
 
-                client.settimeout(TIMEOUT+0.000001)
+                client.settimeout(TIMEOUT)
                 thread_client = threading.Thread(target=self.listenToClient, args=(client, address)).start()
                 thread_list.append(thread_client)
 
