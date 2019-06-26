@@ -31,40 +31,44 @@ def find_servers():
     finally:
         client_mcast.close()
 
+
 find_servers()
 
-# tcpClientA = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-# tcpClientA.connect((host, port))
-#
-#
-# my_idx = 0
-# my_idx = pickle.dumps(my_idx)
-# tcpClientA.send(my_idx)
-#
-#
-# message = tcpClientA.recv(BUFFER_SIZE)
-# message = pickle.loads(message)
-#
-# if message == "You are client A":
-#     while message != "exit":
-#         message = input("Enter message or enter exit")
-#         if message == "exit":
-#             break
-#         message = pickle.dumps(message)
-#         tcpClientA.send(message)
-#         data = tcpClientA.recv(buffer_size)
-#         data = pickle.loads(data)
-#         print("Client received data: ", data)
-#
-# else:
-#     while message != "exit":
-#         data = tcpClientA.recv(buffer_size)
-#         data = pickle.loads(data)
-#         print("Client received data: ", data)
-#         message = input("Enter message or enter exit")
-#         if message == "exit":
-#             break
-#         message = pickle.dumps(message)
-#         tcpClientA.send(message)
-#
-# tcpClientA.close()
+if (len(servers) > 0):
+    host = servers[0]
+    port = SERVER_PORT
+    tcpClientA = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    tcpClientA.connect((host, port))
+
+
+    my_idx = 0
+    my_idx = pickle.dumps(my_idx)
+    tcpClientA.send(my_idx)
+
+
+    message = tcpClientA.recv(BUFFER_SIZE)
+    message = pickle.loads(message)
+
+    if message == "You are client A":
+        while message != "exit":
+            message = input("Enter message or enter exit")
+            if message == "exit":
+                break
+            message = pickle.dumps(message)
+            tcpClientA.send(message)
+            data = tcpClientA.recv(buffer_size)
+            data = pickle.loads(data)
+            print("Client received data: ", data)
+
+    else:
+        while message != "exit":
+            data = tcpClientA.recv(buffer_size)
+            data = pickle.loads(data)
+            print("Client received data: ", data)
+            message = input("Enter message or enter exit")
+            if message == "exit":
+                break
+            message = pickle.dumps(message)
+            tcpClientA.send(message)
+
+    tcpClientA.close()
