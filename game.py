@@ -135,6 +135,8 @@ if message == "white" or message == "black":
             myTurn = False
             turn = "b"
 
+        print("MyTurn color: ", myTurn, turn, color)
+
         while run:
 
             clock.tick(10)
@@ -167,6 +169,7 @@ if message == "white" or message == "black":
 
 
             if myTurn:
+                # print("Im IN!")
                 for event in pygame.event.get():
                     if event.type == pygame.QUIT:
                         run = False
@@ -180,16 +183,18 @@ if message == "white" or message == "black":
                     if event.type == pygame.MOUSEMOTION:
                         pass
                     if event.type == pygame.MOUSEBUTTONDOWN:
+                        print("Mouse BUTTON")
                         pos = pygame.mouse.get_pos()
                         bo.update_moves()
                         i , j = click(pos)
 
 
-                        change, prev = bo.select(j,i , turn)
+                        change, prev_mv = bo.select(j,i , turn)
                         if change:
+                            print("Change and previous", change, prev_mv)
                             #timeGone = int(time.time() - startTime)
                             curr = (i,j)
-                            data_send = (prev, curr, color)
+                            data_send = (prev_mv, curr, color)
                             data_send = pickle.dumps(data_send)
                             tcpClient.send(data_send)
                             startTime = time.time() # if made move reset time
@@ -198,11 +203,13 @@ if message == "white" or message == "black":
                             else:
                                 turn = "w"
                             myTurn = False
+                            print("MyTurn color: ", myTurn, turn)
 
             else:
-                data, address = tcpClient.recv(BUFFER_SIZE)
+                data = tcpClient.recv(BUFFER_SIZE)
 
                 data = pickle.loads(data)
+                print("Data received", data)
 
                 if isinstance(data,str):
                     if data == "WIN":
@@ -218,9 +225,13 @@ if message == "white" or message == "black":
                         tcpClient.close()
                         pygame.quit()
 
-                prev, curr, color = data
-                change, _ = bo.select(prev[1], prev[0], turn)
-                change, _ = bo.select(curr[1], curr[0], turn)
+                prev, curr, color_recv = data
+                print("DATA RECEIVED: ", data)
+                bo.update_moves()
+                change = bo.move(prev, (curr[1], curr[0]),turn)
+                print("Changed", change)
+                bo.update_moves()
+                bo.reset_selected()
                 if change:
                     # timeGone = int(time.time() - startTime)
                     startTime = time.time()  # if made move reset time
@@ -228,7 +239,12 @@ if message == "white" or message == "black":
                         turn = "b"
                     else:
                         turn = "w"
+                    if color_recv == 'white':
+                        turn = "b"
+                    else:
+                        turn = "w"
                     myTurn = True
+                    print("MyTurn color: ", myTurn, turn)
 
 
 
